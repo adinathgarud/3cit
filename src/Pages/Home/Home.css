@@ -158,7 +158,7 @@
 
 .experience-item {
     text-align: center;
-    margin: 0 15px; /* Reduced margin */
+     /* Reduced margin */
     flex: 1;
    
 }
@@ -171,6 +171,7 @@
 .experience-item h2 {
     font-size:50px;
     color: #27ae60;
+    text-align: center;
 }
 
 .experience-item p:nth-child(2) {
@@ -228,6 +229,7 @@
     font-size: 17px; /* Slightly reduced font size */
     margin: 20px 0 10px;
     color: #232323;
+    text-align: center;
 }
 
 .card p {
@@ -459,6 +461,10 @@
       flex-direction: column;
       padding: 20px;
     }
+    .hero .overlay{
+        
+       height: fit-content;
+      }
   
     .home-service-card {
       width: 100%;
@@ -483,7 +489,12 @@
     .home-service-container {
       padding: 10px;
     }
-  
+    .card p{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+
     .home-service-content {
       padding: 15px;
     }
@@ -674,6 +685,7 @@
 @media (max-width: 740px) {
     .hero {
         padding: 80px 20px; /* Reduced padding */
+        min-height: 80vh;
     }
 
     .hero h1 {
@@ -758,20 +770,17 @@
         font-size: 24px;
     }
 
-    .slider {
-        max-width: 100%;
-        padding: 20px;
-    }
-
-    .slide img {
-        width: 30px;
-    }
+    
 }
 
 @media (max-width: 480px) {
     .hero {
-        padding: 146.5px 10px; /* Reduced padding */
+        padding: 40px 10px; /* Reduced padding */
     }
+
+    .hero .overlay{
+        min-height: 86vh;
+      }
 
     .hero .overlay h1 {
         font-size: 2em; /* Reduced font size */
@@ -787,6 +796,11 @@
     .hero .overlay .home-get-started {
         padding: 8px 16px; /* Reduced padding */
         font-size: 20px;
+        
+    }
+    .get-started-btn{
+ 
+        margin:-20% 0 30% 0;
     }
 
     .features {
@@ -846,13 +860,7 @@
         font-size: 20px;
     }
 
-    .slider {
-        padding: 10px; /* Added padding */
-    }
-
-    .slide img {
-        width: 25px;
-    }
+   
 }
 
 
