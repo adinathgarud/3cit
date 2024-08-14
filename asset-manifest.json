@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.81dc8084.css",
-    "main.js": "/3cit/static/js/main.9297d5a5.js",
+    "main.css": "/3cit/static/css/main.f21e9961.css",
+    "main.js": "/3cit/static/js/main.dfd5ce27.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -28,6 +28,7 @@
     "static/media/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.jpg": "/3cit/static/media/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.27c70f73ca5e6e2a631b.jpg",
     "static/media/demo-startup-who-we-are-title-bg.jpg": "/3cit/static/media/demo-startup-who-we-are-title-bg.6b7838b11022c6fc6c07.jpg",
     "static/media/front-remote-infra.png": "/3cit/static/media/front-remote-infra.bf7fac7f70ea460cfe51.png",
+    "static/media/communication-symbol-2023-11-27-04-57-29-utc-scaled.jpg": "/3cit/static/media/communication-symbol-2023-11-27-04-57-29-utc-scaled.c30cb9cf9df36563e5fa.jpg",
     "static/media/3CIT-Logo.png": "/3cit/static/media/3CIT-Logo.d7954768010e50c30549.png",
     "static/media/diverse-team-of-colleagues-using-video-conference-2023-11-27-05-29-09-utc-scaled.jpg": "/3cit/static/media/diverse-team-of-colleagues-using-video-conference-2023-11-27-05-29-09-utc-scaled.13adce11de87179ac163.jpg",
     "static/media/distance-online-lecture-side-view-of-a-mixed-race-2023-11-27-05-11-45-utc-scaled.jpg": "/3cit/static/media/distance-online-lecture-side-view-of-a-mixed-race-2023-11-27-05-11-45-utc-scaled.e408c835adecde9e6fb6.jpg",
@@ -49,6 +50,7 @@
     "static/media/data-center-security.png": "/3cit/static/media/data-center-security.4992c48fdb6c7947172e.png",
     "static/media/data-center-network.png": "/3cit/static/media/data-center-network.779ecac0612c3effd4ef.png",
     "static/media/home-competency.png": "/3cit/static/media/home-competency.29c0446c9241f2a848f0.png",
+    "static/media/customer-support.png": "/3cit/static/media/customer-support.a286917ba2f61fa0fbfa.png",
     "static/media/play.png": "/3cit/static/media/play.d44931e7a4fd6535848f.png",
     "static/media/left-honda.avif": "/3cit/static/media/left-honda.f2ae85d6958dec3adf78.avif",
     "static/media/data-center-cost.png": "/3cit/static/media/data-center-cost.f0a3b09920763f7024dc.png",
@@ -67,6 +69,7 @@
     "static/media/Gangarani.jpeg": "/3cit/static/media/Gangarani.5b265deb65706a460691.jpeg",
     "static/media/Shailendra.jpeg": "/3cit/static/media/Shailendra.d40913619449661a3c99.jpeg",
     "static/media/home-infrastructure.png": "/3cit/static/media/home-infrastructure.13a5e0d76daa9024897d.png",
+    "static/media/demo-startup-contact-title-bg-300x169.jpg": "/3cit/static/media/demo-startup-contact-title-bg-300x169.50d82f8dd65a2eaf422c.jpg",
     "static/media/Pandurang.jpeg": "/3cit/static/media/Pandurang.b3962413712161bb8fb9.jpeg",
     "static/media/Sujeet.jpeg": "/3cit/static/media/Sujeet.892c73937a0de176746a.jpeg",
     "static/media/financial-bg.jpg": "/3cit/static/media/financial-bg.26fcbe9e92ca901d669f.jpg",
@@ -75,12 +78,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.81dc8084.css.map": "/3cit/static/css/main.81dc8084.css.map",
-    "main.9297d5a5.js.map": "/3cit/static/js/main.9297d5a5.js.map",
+    "main.f21e9961.css.map": "/3cit/static/css/main.f21e9961.css.map",
+    "main.dfd5ce27.js.map": "/3cit/static/js/main.dfd5ce27.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81dc8084.css",
-    "static/js/main.9297d5a5.js"
+    "static/css/main.f21e9961.css",
+    "static/js/main.dfd5ce27.js"
   ]
 }
