@@ -1,16 +1,16 @@
 import React from 'react';
 import './Contact.css';
 import contact_location from '../assets/contact_location.jpeg';
-import contact_callus from '../assets/contact_callus.png';
+import contact_callus from '../assets/customer-support.png';
 import contact_emailus from '../assets/contact_emailus.png';
-import landlineImage from '../assets/landline.jpeg'; // Ensure you have this image in your project
+import landlineImage from '../assets/communication-symbol-2023-11-27-04-57-29-utc-scaled.jpg'; // Ensure you have this image in your project
 
 const Contact = () => {
   return (
     <div className="contact-container">
       <div className="contact-hero">
                     <h1>CONTACT US</h1>
-                    <p>Reach Out, We're Here for You!</p>
+                    <p>Reach Out, <br /> We're Here for You!</p>
                     
                 </div>
                 <div className="contact-cards">
@@ -38,13 +38,13 @@ const Contact = () => {
 
           <form>
             <label>Full Name</label>
-            <input type="text" name="fullname" />
+            <input type="text" name="fullname" placeholder='Full Name' />
             <label>Mobile No</label>
-            <input type="text" name="mobile" />
+            <input type="text" name="mobile" placeholder='Mobile' />
             <label>Email ID</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" placeholder='Email' />
             <label>Short Message</label>
-            <textarea name="message"></textarea>
+            <textarea name="message" placeholder='Message'></textarea>
             <button type="submit">Submit</button>
           </form>
         </div>
@@ -66,3 +66,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
