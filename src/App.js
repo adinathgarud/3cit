@@ -61,7 +61,7 @@ const App = () => {
         <Router>
             <Header />
             <Routes>
-                <Route path="/3citsolutions/" element={<Home />} />
+                <Route path="/3cit" element={<Home />} />
                 <Route path="/aboutus/company" element={<CompanyOverview />} />
                 <Route path="/aboutus/team" element={<Team />} />
                 <Route path="/aboutus/careers" element={<Careers />} />
