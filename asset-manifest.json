@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.f21e9961.css",
+    "main.css": "/3cit/static/css/main.55b552c0.css",
     "main.js": "/3cit/static/js/main.dfd5ce27.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
@@ -78,12 +78,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.f21e9961.css.map": "/3cit/static/css/main.f21e9961.css.map",
+    "main.55b552c0.css.map": "/3cit/static/css/main.55b552c0.css.map",
     "main.dfd5ce27.js.map": "/3cit/static/js/main.dfd5ce27.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21e9961.css",
+    "static/css/main.55b552c0.css",
     "static/js/main.dfd5ce27.js"
   ]
 }
