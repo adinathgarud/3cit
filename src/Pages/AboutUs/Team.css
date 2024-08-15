@@ -121,13 +121,21 @@
 .profile h1 {
   font-size: 16px;
   margin-top: 20px;
-  font-weight: 500;
+  font-weight: bold;
+
 }
 
 .profile p {
   font-size: 16px;
   margin-top: 10px;
 }
+
+#senior-management{
+  margin: 0px;
+  padding: 0px;
+  max-width:1200px ;
+}
+
 
 /* Image Container Section */
 .image-container {
@@ -159,6 +167,8 @@
     background-image: url('../../assets/demo-startup-team-video-01.jpg'); /* loop back to the first image */
   }
 }
+
+
 
 .image-container img {
   width: 100%;

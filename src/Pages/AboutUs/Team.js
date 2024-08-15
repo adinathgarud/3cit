@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
 
 import './Team.css'; // Assuming you have a CSS file for styling
-import director1 from '../../assets/directors.jpg';
+
 import playicon from '../../assets/play.png';
 import YouTube from 'react-youtube';
+//import director1 from '../../assets/ranjit.jpeg';
+import ranjit from '../../assets/ranjit.jpeg';
+import Gangarani from '../../assets/Gangarani.jpeg'
+import Sujeet from '../../assets/Sujeet.jpeg'
+import Shailendra from '../../assets/Shailendra.jpeg'
+import Pandurang from '../../assets/Pandurang.jpeg'
 
+import Anil from '../../assets/anil.jpeg'
+import Govind from '../../assets/govind.png'
+import Pakashana from '../../assets/Pakashana.jpeg'
+import Dhirendra from '../../assets/Dhirendra.jpg'
 
 
 const Team = () => {
@@ -52,32 +62,32 @@ const Team = () => {
           <h1>Directors</h1>
           <div className="profiles">
             <div className="profile">
-              <img src={director1} alt="Director 1" />
+              <img src={ranjit} alt="ranjit" />
               <h1>Mr.Ranjit Kulladhaja Mayengbam</h1>
               <p>Chairman & MD</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Director 2" />
+              <img src={Gangarani} alt="Director 2" />
               <h1>Mrs.Gangarani Devi Mayengbam</h1>
               <p> Executive Director & CFO</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Director 3" />
+              <img src={Sujeet} alt="Director 3" />
               <h1>Mr.Sujeet Dinanath Naik</h1>
               <p>Non-Executive Director</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Director 4" />
+              <img src={Dhirendra} alt="Director 4" />
               <h1>Mr.Dhirendra Sidh Nath Trivedi</h1>
               <p>Independent Director</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Director 5" />
+              <img src={Shailendra} alt="Director 5" />
               <h1>Mr.Shailendra Ramesh Ganeshe</h1>
               <p>Independent Director</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Director 6" />
+              <img src={Pandurang} alt="Director 6" />
               <h1>Mr.Pandurang Avinash Deokar</h1>
               <p>Independent Director</p>
             </div>
@@ -87,15 +97,15 @@ const Team = () => {
           <h1>Senior Management</h1>
           <div className="profiles">
             <div className="profile">
-              <img src={director1} alt="Senior Director" />
+              <img src={Anil} alt="Senior Director" />
               <p>Mr. Anil Bhat<br />Vice President Sales</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Senior Director" />
+              <img src={Govind} alt="Senior Director" />
               <p>Mr. Govind Sahu<br />General Manager Sales</p>
             </div>
             <div className="profile">
-              <img src={director1} alt="Senior Director" />
+              <img src={Pakashana} alt="Senior Director" />
               <p>Pakashana Thounaojam<br />Head of Human Resources</p>
             </div>
           </div>
