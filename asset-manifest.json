@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.17074191.css",
-    "main.js": "/3cit/static/js/main.93d10088.js",
+    "main.css": "/3cit/static/css/main.82d28651.css",
+    "main.js": "/3cit/static/js/main.22b0e525.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -51,19 +51,23 @@
     "static/media/data-center-security.png": "/3cit/static/media/data-center-security.4992c48fdb6c7947172e.png",
     "static/media/data-center-network.png": "/3cit/static/media/data-center-network.779ecac0612c3effd4ef.png",
     "static/media/home-competency.png": "/3cit/static/media/home-competency.29c0446c9241f2a848f0.png",
+    "static/media/RemoteManagement.png": "/3cit/static/media/RemoteManagement.2d40978606c5808c2835.png",
     "static/media/customer-support.png": "/3cit/static/media/customer-support.a286917ba2f61fa0fbfa.png",
     "static/media/play.png": "/3cit/static/media/play.d44931e7a4fd6535848f.png",
+    "static/media/tracking.png": "/3cit/static/media/tracking.24c5f468c73fc8c682d5.png",
     "static/media/left-honda.avif": "/3cit/static/media/left-honda.f2ae85d6958dec3adf78.avif",
     "static/media/data-center-cost.png": "/3cit/static/media/data-center-cost.f0a3b09920763f7024dc.png",
     "static/media/data-center-computer.png": "/3cit/static/media/data-center-computer.616f53ee3c4e1e5d42d8.png",
     "static/media/remote-management-featured (1).png": "/3cit/static/media/remote-management-featured (1).3b5da2b1cecee5eef514.png",
-    "static/media/lenovo_logo.png": "/3cit/static/media/lenovo_logo.cc21e641c755ba06e66c.png",
+    "static/media/Virtualization.png": "/3cit/static/media/Virtualization.569eb6b7dbda454a141b.png",
+    "static/media/DataProtection.png": "/3cit/static/media/DataProtection.13e95f16c4cdd858e91b.png",
     "static/media/data-center-connectivity.png": "/3cit/static/media/data-center-connectivity.a026ba8645e9d4819744.png",
     "static/media/home_customer_focus.png": "/3cit/static/media/home_customer_focus.0b889f94b030cede577f.png",
+    "static/media/DeviceDeployment.png": "/3cit/static/media/DeviceDeployment.2f6698f2fc5daf3e4c97.png",
     "static/media/datacenter_computer_services.png": "/3cit/static/media/datacenter_computer_services.2c86bf6eb0d74ae8a223.png",
     "static/media/company-innovation.png": "/3cit/static/media/company-innovation.6888bf5906ec199d611f.png",
+    "static/media/analytics.png": "/3cit/static/media/analytics.b6faee2ddb5057e1de87.png",
     "static/media/data-center-storage.png": "/3cit/static/media/data-center-storage.964885483fc5230879bc.png",
-    "static/media/acer_logo.png": "/3cit/static/media/acer_logo.189c0dec9a77dbc5385e.png",
     "static/media/home-digital.png": "/3cit/static/media/home-digital.dc13a81dc14387af88b5.png",
     "static/media/datacenter_services1.png": "/3cit/static/media/datacenter_services1.d347a70aacc51edab66c.png",
     "static/media/home-care.png": "/3cit/static/media/home-care.71e10998665b8c305171.png",
@@ -82,12 +86,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.17074191.css.map": "/3cit/static/css/main.17074191.css.map",
-    "main.93d10088.js.map": "/3cit/static/js/main.93d10088.js.map",
+    "main.82d28651.css.map": "/3cit/static/css/main.82d28651.css.map",
+    "main.22b0e525.js.map": "/3cit/static/js/main.22b0e525.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17074191.css",
-    "static/js/main.93d10088.js"
+    "static/css/main.82d28651.css",
+    "static/js/main.22b0e525.js"
   ]
 }
