@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.55b552c0.css",
-    "main.js": "/3cit/static/js/main.dfd5ce27.js",
+    "main.css": "/3cit/static/css/main.17074191.css",
+    "main.js": "/3cit/static/js/main.93d10088.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -42,6 +42,7 @@
     "static/media/demo-startup-slider-bg-02.jpg": "/3cit/static/media/demo-startup-slider-bg-02.a18ea472967099c34072.jpg",
     "static/media/demo-startup-slider-bg-03.jpg": "/3cit/static/media/demo-startup-slider-bg-03.0a05345a5a68b487c696.jpg",
     "static/media/demo-startup-slider-bg-01.jpg": "/3cit/static/media/demo-startup-slider-bg-01.1e329535474d4220ff76.jpg",
+    "static/media/govind.png": "/3cit/static/media/govind.a4b14680db952af61dab.png",
     "static/media/fms_end_user_device.png": "/3cit/static/media/fms_end_user_device.b89c613cafd05e0989ec.png",
     "static/media/demo-startup-business-process.jpg": "/3cit/static/media/demo-startup-business-process.65e987b242d014378889.jpg",
     "static/media/Number (1).png": "/3cit/static/media/Number (1).707bec9dc2069594f5c2.png",
@@ -71,19 +72,22 @@
     "static/media/home-infrastructure.png": "/3cit/static/media/home-infrastructure.13a5e0d76daa9024897d.png",
     "static/media/demo-startup-contact-title-bg-300x169.jpg": "/3cit/static/media/demo-startup-contact-title-bg-300x169.50d82f8dd65a2eaf422c.jpg",
     "static/media/Pandurang.jpeg": "/3cit/static/media/Pandurang.b3962413712161bb8fb9.jpeg",
+    "static/media/anil.jpeg": "/3cit/static/media/anil.647222edd9caddd4fbfd.jpeg",
+    "static/media/Dhirendra.jpg": "/3cit/static/media/Dhirendra.3d2572425d4a5d6417be.jpg",
     "static/media/Sujeet.jpeg": "/3cit/static/media/Sujeet.892c73937a0de176746a.jpeg",
     "static/media/financial-bg.jpg": "/3cit/static/media/financial-bg.26fcbe9e92ca901d669f.jpg",
+    "static/media/Pakashana.jpeg": "/3cit/static/media/Pakashana.ceea42e5b4e85e787104.jpeg",
     "static/media/slick.svg": "/3cit/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/3cit/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.55b552c0.css.map": "/3cit/static/css/main.55b552c0.css.map",
-    "main.dfd5ce27.js.map": "/3cit/static/js/main.dfd5ce27.js.map",
+    "main.17074191.css.map": "/3cit/static/css/main.17074191.css.map",
+    "main.93d10088.js.map": "/3cit/static/js/main.93d10088.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b552c0.css",
-    "static/js/main.dfd5ce27.js"
+    "static/css/main.17074191.css",
+    "static/js/main.93d10088.js"
   ]
 }
