@@ -129,10 +129,9 @@
   text-align: center;
 }
 
-.enduser-icon {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-  color: #28a745;
+.enduser-icon img {
+  width: 60px;
+  height: auto;
 }
 
 .enduser-card h3 {
@@ -146,14 +145,15 @@
 }
 
 .enduser-partner-brand {
-  text-align: center;
+  align-items: center;
   margin: 20px;
   display: grid;
-  margin-bottom: 15%;
+  margin-bottom: 1%;
 }
 
 .enduser-partner-brand h2 {
   font-size: 2.5em;
+  text-align: center;
   color: #111633;
   margin-bottom: 10px;
   border-bottom: 2px solid #ddd;
@@ -206,8 +206,9 @@
     font-size: 1.2em;
   }
 
-  .enduser-icon {
-    font-size: 2em;
+  .enduser-icon img{
+    width: 45px;
+    height: auto;
   }
 
   .enduser-partner-brand h2 {
@@ -245,8 +246,9 @@
     font-size: 0.9em;
   }
 
-  .enduser-icon {
-    font-size: 1.5em;
+  .enduser-icon img{
+    width: 40px;
+    height: auto;
   }
 
   .enduser-partner-brand h2 {

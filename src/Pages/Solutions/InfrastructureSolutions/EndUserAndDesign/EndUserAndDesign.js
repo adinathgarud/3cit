@@ -2,8 +2,16 @@ import React from 'react';
 import './EndUserAndDesign.css';
 //import illustration from '../../../../assets/Add-a-subheading-3 (1).png';
 import endUserImage from '../../../../assets/N1-0319-End-User-Management.webp';
-import lenovoLogo from '../../../../assets/lenovo_logo.png';
-import acerLogo from '../../../../assets/acer_logo.png';
+//import lenovoLogo from '../../../../assets/lenovo_logo.png';
+//import acerLogo from '../../../../assets/acer_logo.png';
+import DeviceConfig from '../../../../assets/data-center-storage.png'
+import Devicedeployment from '../../../../assets/DeviceDeployment.png'
+import remotemanage from '../../../../assets/RemoteManagement.png'
+import virtualization from '../../../../assets/Virtualization.png'
+import assetracking from '../../../../assets/tracking.png'
+import dataprotection from '../../../../assets/DataProtection.png'
+import Analytics from '../../../../assets/analytics.png'
+import LogoSlider from '../../../../components/LogoSlider/LogoSlider';
 
 const EndUserAndDesign = () => {
   return (
@@ -40,7 +48,7 @@ const EndUserAndDesign = () => {
       
       <div className="enduser-card-cont">
         <div className="enduser-card">
-          <div className="enduser-icon">📟</div>
+          <div className="enduser-icon"><img src={DeviceConfig} alt="Device Configuration" /></div>
           <h3>Device Configuration</h3>
           <p>
             Our team of experts can configure devices as per Customers corporate policies 
@@ -48,7 +56,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">🔍</div>
+          <div className="enduser-icon"><img src={Devicedeployment} alt="Device Deployment" /></div>
           <h3>Device Deployment</h3>
           <p>
             We can efficiently deploy new devices from different makes for Client employees 
@@ -57,7 +65,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">🖥️</div>
+          <div className="enduser-icon"><img src={remotemanage} alt="Remote Management" /></div>
           <h3>Remote Management</h3>
           <p>
             We provide 24/7 remote management support for all devices, which includes 
@@ -65,7 +73,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">📡</div>
+          <div className="enduser-icon"><img src={virtualization} alt="Virtualization" /></div>
           <h3>Virtualization</h3>
           <p>
             Desktop Virtualization: Running desktop environments on servers and delivering them 
@@ -77,7 +85,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">📊</div>
+          <div className="enduser-icon"><img src={assetracking} alt="Asset Tracking" /></div>
           <h3>Asset Tracking</h3>
           <p>
             We can track all devices in use by your employees, including laptop, smartphones, 
@@ -86,7 +94,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">🔒</div>
+          <div className="enduser-icon"><img src={dataprotection} alt="Data Protection" /></div>
           <h3>Data Protection</h3>
           <p>
             Our service includes data protection policies that ensure your company data remains 
@@ -95,7 +103,7 @@ const EndUserAndDesign = () => {
           </p>
         </div>
         <div className="enduser-card">
-          <div className="enduser-icon">📈</div>
+          <div className="enduser-icon"><img src={Analytics} alt="Reporting and Analytics" /></div>
           <h3>Reporting and Analytics</h3>
           <p>
             We provide detailed reporting and analytics to device usage and performance data 
@@ -106,11 +114,9 @@ const EndUserAndDesign = () => {
       
       <div className="enduser-partner-brand">
         <h2>Our Partner Brand</h2>
-        <div className="enduser-logos">
-          <img src={lenovoLogo} alt="Lenovo" />
-          <img src={acerLogo} alt="Acer" />
-        </div>
+       
       </div>
+      <LogoSlider />
     </div>
   );
 };
