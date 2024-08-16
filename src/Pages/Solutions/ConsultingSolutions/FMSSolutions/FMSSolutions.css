@@ -1,86 +1,132 @@
 .FMS-Service {
-    background-image:url("../../../../assets/front_fms_solution.png");
-      background-size: cover;
-      background-position: center;
-      height: 70vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-      background-attachment: fixed;
-      z-index: -1;
-    }
-    
-    .FMS-content {
-      
-      padding: 20px;
-      border-radius: 10px;
-    }
-    
-    .FMS-content h1 {
-      font-size: 3rem;
-      margin: 0.5em 0;
-      margin-top: 140%;
-      
-    }
-    
-   
-    
-    /*Cloud Service elementor*/
+    background-image: url("../../../../assets/Add-a-subheading-15\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: -110px;
+    text-align: center;
+    background-attachment: fixed;
+    z-index: -1;
+    position: relative;
+  }
   
-    .FMS-Service-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding: 80px;
-      background-color: #f8f9fa;
-      color: #333;
-      margin: 10%;
-      
+  .FMS-content {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .FMS-content h1 {
+    font-size: 3rem;
+    margin: 0.5em 0;
+    margin-top: 140%;
+  }
+  
+  .FMS-Service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 60px 5%;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 40px 0;
+    gap: 40px;
+    border-radius: 10px;
   }
   
   .FMS-text-content {
-      flex: 1;
-      margin-right: 20px;
+    flex: 1;
+    margin-right: 20px;
   }
   
   .FMS-text-content h2 {
-      font-size: 2.8rem;
-      margin-bottom: 20px;
-      font-weight: bold;
-      color: black;
-      
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
   }
   
   .FMS-text-content p {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      color: #615e5e;
-      
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #615e5e;
   }
   
   .FMS-text-content ul {
-      list-style-type: disc;
-      margin-left: 20px;
+    list-style-type: disc;
+    margin-left: 20px;
   }
   
   .FMS-text-content ul li {
-      font-size: 1.1rem;
-      margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
   }
   
   .FMS-image-content {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .FMS-image-content img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
-
+  
+  .FMS-image-content h5 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1200px) {
+    .FMS-Service-container {
+      flex-direction: column;
+      padding: 40px 5%;
+      gap: 20px;
+    }
+  
+    .FMS-text-content, .FMS-image-content {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .FMS-Service {
+      height: 50vh;
+    }
+  
+    .FMS-content h1 {
+      font-size: 2rem;
+      margin-top: 60%;
+    }
+  
+    .FMS-text-content h2 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .FMS-Service {
+      height: 40vh;
+    }
+  
+    .FMS-content h1 {
+      font-size: 1.8rem;
+      margin-top: 50%;
+    }
+  
+    .FMS-text-content h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

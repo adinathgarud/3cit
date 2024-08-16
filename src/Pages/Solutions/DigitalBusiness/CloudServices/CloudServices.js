@@ -9,13 +9,7 @@ import cloudicon from '../../../../assets/play.png'
 import YouTube from 'react-youtube';
 const CloudServices = () => {
 
-  const videoOptions = {
-    height: '290',
-    width: '540',
-    playerVars: {
-      autoplay: 0,
-    },
-  };
+  
 
 
   const [isModalOpen, setModalOpen] = useState(false);
