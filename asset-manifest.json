@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.50b1ae21.css",
-    "main.js": "/3cit/static/js/main.c5df2a69.js",
+    "main.css": "/3cit/static/css/main.ba65e44f.css",
+    "main.js": "/3cit/static/js/main.bf8cd94e.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -17,16 +17,17 @@
     "static/media/Abridged Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Abridged Prospectus – 3CIT Solution.06c452bd6b0d5a250244.pdf",
     "static/media/Tripartite NSDL Agreement – 3CIT Solution.pdf": "/3cit/static/media/Tripartite NSDL Agreement – 3CIT Solution.ed51e3ecfeee29e9b367.pdf",
     "static/media/Basis of Allotment – 3CIT Solution.pdf": "/3cit/static/media/Basis of Allotment – 3CIT Solution.3368a25d0796856684d6.pdf",
-    "static/media/front_fms_solution.png": "/3cit/static/media/front_fms_solution.e1e5c8762d69a2d9f6b6.png",
     "static/media/top-view-of-laptop-smartphone-and-plant-near-stat-2023-11-27-05-31-09-utc-scaled.jpg": "/3cit/static/media/top-view-of-laptop-smartphone-and-plant-near-stat-2023-11-27-05-31-09-utc-scaled.61f388948c49b2eb774f.jpg",
     "static/media/Add-a-subheading-4.png": "/3cit/static/media/Add-a-subheading-4.1322ecdbf742e27bbf0a.png",
     "static/media/Add-a-subheading-6.png": "/3cit/static/media/Add-a-subheading-6.5819b882a20cac14928a.png",
     "static/media/Add-a-subheading-3 (1).png": "/3cit/static/media/Add-a-subheading-3 (1).8bafca144b336b744f86.png",
+    "static/media/Add-a-subheading-15 (1).png": "/3cit/static/media/Add-a-subheading-15 (1).5a503f4001c750e75aef.png",
     "static/media/Add-a-subheading-12.png": "/3cit/static/media/Add-a-subheading-12.7bed6c8cde1683f3a91d.png",
     "static/media/Add-a-subheading-11.png": "/3cit/static/media/Add-a-subheading-11.cdf1184f8e576600f492.png",
     "static/media/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.jpg": "/3cit/static/media/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.fabe6e9bd1ce45794121.jpg",
     "static/media/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.jpg": "/3cit/static/media/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.27c70f73ca5e6e2a631b.jpg",
     "static/media/demo-startup-who-we-are-title-bg.jpg": "/3cit/static/media/demo-startup-who-we-are-title-bg.6b7838b11022c6fc6c07.jpg",
+    "static/media/securely-share-and-back-up-files-with-cloud-techno-2023-11-27-05-25-08-utc-scaled.jpg": "/3cit/static/media/securely-share-and-back-up-files-with-cloud-techno-2023-11-27-05-25-08-utc-scaled.ca063d7785dfde3721ae.jpg",
     "static/media/front-remote-infra.png": "/3cit/static/media/front-remote-infra.bf7fac7f70ea460cfe51.png",
     "static/media/communication-symbol-2023-11-27-04-57-29-utc-scaled.jpg": "/3cit/static/media/communication-symbol-2023-11-27-04-57-29-utc-scaled.c30cb9cf9df36563e5fa.jpg",
     "static/media/3CIT-Logo.png": "/3cit/static/media/3CIT-Logo.d7954768010e50c30549.png",
@@ -60,6 +61,7 @@
     "static/media/data-center-computer.png": "/3cit/static/media/data-center-computer.616f53ee3c4e1e5d42d8.png",
     "static/media/remote-management-featured (1).png": "/3cit/static/media/remote-management-featured (1).3b5da2b1cecee5eef514.png",
     "static/media/Virtualization.png": "/3cit/static/media/Virtualization.569eb6b7dbda454a141b.png",
+    "static/media/Mobile-App-Landing-page-1-300x144.png": "/3cit/static/media/Mobile-App-Landing-page-1-300x144.3769f0b1f1058e57df5c.png",
     "static/media/DataProtection.png": "/3cit/static/media/DataProtection.13e95f16c4cdd858e91b.png",
     "static/media/data-center-connectivity.png": "/3cit/static/media/data-center-connectivity.a026ba8645e9d4819744.png",
     "static/media/home_customer_focus.png": "/3cit/static/media/home_customer_focus.0b889f94b030cede577f.png",
@@ -74,6 +76,7 @@
     "static/media/Gangarani.jpeg": "/3cit/static/media/Gangarani.5b265deb65706a460691.jpeg",
     "static/media/Shailendra.jpeg": "/3cit/static/media/Shailendra.d40913619449661a3c99.jpeg",
     "static/media/home-infrastructure.png": "/3cit/static/media/home-infrastructure.13a5e0d76daa9024897d.png",
+    "static/media/focused-man-making-conference-call-on-laptop-while-2023-11-27-04-51-34-utc-300x200.jpg": "/3cit/static/media/focused-man-making-conference-call-on-laptop-while-2023-11-27-04-51-34-utc-300x200.6ef7689e6e3e3019a576.jpg",
     "static/media/demo-startup-contact-title-bg-300x169.jpg": "/3cit/static/media/demo-startup-contact-title-bg-300x169.50d82f8dd65a2eaf422c.jpg",
     "static/media/Pandurang.jpeg": "/3cit/static/media/Pandurang.b3962413712161bb8fb9.jpeg",
     "static/media/anil.jpeg": "/3cit/static/media/anil.647222edd9caddd4fbfd.jpeg",
@@ -86,12 +89,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.50b1ae21.css.map": "/3cit/static/css/main.50b1ae21.css.map",
-    "main.c5df2a69.js.map": "/3cit/static/js/main.c5df2a69.js.map",
+    "main.ba65e44f.css.map": "/3cit/static/css/main.ba65e44f.css.map",
+    "main.bf8cd94e.js.map": "/3cit/static/js/main.bf8cd94e.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50b1ae21.css",
-    "static/js/main.c5df2a69.js"
+    "static/css/main.ba65e44f.css",
+    "static/js/main.bf8cd94e.js"
   ]
 }
