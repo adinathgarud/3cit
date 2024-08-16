@@ -23,7 +23,7 @@ const Materialdocuments = () => {
           <img src={Annualreport} alt="Annual Report" />
           <h3>Annual Reports</h3>
           <p>2020 - 21</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/2020-21' className="download-btn">Download</a>
         </div>
         
       
@@ -31,7 +31,7 @@ const Materialdocuments = () => {
           <img src={Annualreport} alt="" />
           <h3>Annual Reports</h3>
           <p>2021 - 22</p>
-          <a  href='/# ' className="download-btn">Download</a>
+          <a  href='/2021-22' className="download-btn">Download</a>
         </div>
         
 
@@ -39,7 +39,7 @@ const Materialdocuments = () => {
           <img src={Annualreport} alt="" />
           <h3>Annual Reports</h3>
           <p>2022 - 23</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/2022-23' className="download-btn">Download</a>
         </div>
         
  </div>
@@ -54,7 +54,7 @@ const Materialdocuments = () => {
           <img src={Annualreport} alt="" />
           <h3>MOA & AOA</h3>
           
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/moa-aoa' className="download-btn">Download</a>
         </div>
         
  </div>

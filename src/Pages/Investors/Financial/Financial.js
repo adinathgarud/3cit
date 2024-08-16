@@ -23,7 +23,7 @@ const Financial = () => {
           <img src={Annualreport} alt="Annual Report" />
           <h3>Annual Reports</h3>
           <p>2020 - 21</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/2020-21 ' className="download-btn">Download</a>
         </div>
         
       
@@ -31,7 +31,7 @@ const Financial = () => {
           <img src={Annualreport} alt="" />
           <h3>Annual Reports</h3>
           <p>2021 - 22</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/2021-22' className="download-btn">Download</a>
         </div>
         
 
@@ -39,7 +39,7 @@ const Financial = () => {
           <img src={Annualreport} alt="" />
           <h3>Annual Reports</h3>
           <p>2022 - 23</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/2022-23' className="download-btn">Download</a>
         </div>
         
  </div>
@@ -52,25 +52,25 @@ const Financial = () => {
     <div className="Fi-containe">
         <div className="Fi-content">
           <img src={Annualreport} alt="" />
-          <h3>Annual Reports</h3>
+          <h3>Annual Return</h3>
           <p>2020 - 21</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/return-2020-21' className="download-btn">Download</a>
         </div>
         
       
         <div className="Fi-content">
           <img src={Annualreport} alt="" />
-          <h3>Annual Reports</h3>
+          <h3>Annual Return</h3>
           <p>2021 - 22</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/return-2021-22' className="download-btn">Download</a>
         </div>
         
 
         <div className="Fi-content">
           <img src={Annualreport} alt="" />
-          <h3>Annual Reports</h3>
+          <h3>Annual Return</h3>
           <p>2022 - 23</p>
-          <a href='/# ' className="download-btn">Download</a>
+          <a href='/return-2022-23' className="download-btn">Download</a>
         </div>
         
  </div>

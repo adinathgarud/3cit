@@ -52,6 +52,19 @@ import RegistarTransferAgent from './Pages/Investors/IPO/MaterialAgreements/Regi
 import BankerAgreements from './Pages/Investors/IPO/MaterialAgreements/BankerAgreements';
 import TripartiteNSDLAgreement from './Pages/Investors/IPO/MaterialAgreements/TripartiteNSDLAgreement';
 import TripartiteCDSLAgreement from './Pages/Investors/IPO/MaterialAgreements/TripartiteCDSLAgreement';
+import ResidentForm from './Pages/Investors/IPO/ApplicationForm/ResidentForm';
+import NonResidentForm from './Pages/Investors/IPO/ApplicationForm/NonResidentForm';
+import RivisionResidentForm from './Pages/Investors/IPO/ApplicationForm/RivisionResidentForm';
+import RivisionNonResidentForm from './Pages/Investors/IPO/ApplicationForm/RivisionNonResidentForm';
+import Areportone from './Pages/Investors/Financial/Areportone';
+import Areportow from './Pages/Investors/Financial/Areportow';
+import Areporthird from './Pages/Investors/Financial/Areporthird';
+import Areturnone from './Pages/Investors/Financial/Areturnone';
+import Areturntow from './Pages/Investors/Financial/Areturntow';
+import Areturnthird from './Pages/Investors/Financial/Areturnthird';
+import Shearholdingone from './Pages/Investors/ShareHoldingPatterns/Shearholdingone';
+import Shearholdingtow from './Pages/Investors/ShareHoldingPatterns/Shearholdingtow';
+import Moaoa from './Pages/Investors/MaterialDocuments/Moaoa';
 
 
 
@@ -115,6 +128,27 @@ const App = () => {
                <Route path="/banker-agreement" element={<BankerAgreements />} />
                 <Route path="/tripartite-nsdl-agreement" element={<TripartiteNSDLAgreement />} />
                 <Route path="/tripartite-cdsl-agreement" element={<TripartiteCDSLAgreement />} />
+
+
+                <Route path="/residentform" element={<ResidentForm />} />
+                <Route path="/non-residen-form" element={<NonResidentForm />} />
+                <Route path="/rivision-residen-form" element={<RivisionResidentForm />} />
+                <Route path="/rivision-non-resident-form" element={<RivisionNonResidentForm />} />
+
+                
+                <Route path="/2020-21" element={<Areportone />} />
+                <Route path="/2021-22" element={<Areportow />} />
+                <Route path="/2022-23" element={<Areporthird />} />
+
+                <Route path="/return-2020-21" element={<Areturnone />} />
+                <Route path="/return-2021-22" element={<Areturntow />} />
+                <Route path="/return-2022-23" element={<Areturnthird />} />
+
+                <Route path="/list-of-shareholder-as-on-31/03/2023" element={<Shearholdingone />} />
+                <Route path="/share-holder-as-on-10/06/2024" element={<Shearholdingtow />} />
+
+                <Route path="/moa-aoa" element={<Moaoa />} />
+                
                
             </Routes>
             <Footer />

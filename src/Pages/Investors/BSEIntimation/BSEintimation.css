@@ -1,0 +1,173 @@
+.bse-banner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 2em;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 1024px) {
+    .banner-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-title {
+        font-size: 1rem;
+    }
+}
+
+/*  Document reports */
+
+.documents-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 50px;
+    
+}
+
+.document-item {
+    text-align: center;
+    padding: 50px;
+   /* border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    max-width: 200px;
+    flex: 1 1 200px;
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: green;
+}
+
+.document-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: white;
+    background-color: #27AE60;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.download-button:hover {
+    background-color: #27AE60;
+}
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    .documents-container {
+        gap: 15px;
+    }
+
+    .document-item {
+        max-width: 180px;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+
+    .document-title {
+        font-size: 0.9rem;
+    }
+
+    .download-button {
+        padding: 8px 18px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .document-item {
+        max-width: 160px;
+    }
+
+    .icon {
+        font-size: 35px;
+    }
+
+    .document-title {
+        font-size: 0.85rem;
+    }
+
+    .download-button {
+        padding: 6px 16px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .documents-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .document-item {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .document-title {
+        font-size: 0.8rem;
+    }
+
+    .download-button {
+        padding: 5px 14px;
+        font-size: 0.8rem;
+    }
+}
+

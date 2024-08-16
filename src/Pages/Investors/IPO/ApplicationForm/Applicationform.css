@@ -1,0 +1,96 @@
+/* General Styles */
+.application-form-container {
+    padding: 20px;
+}
+
+.application-form-header {
+    background-color: #27ae60;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.application-form-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.application-form-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns on large screens */
+    gap: 40px;
+    width: 80%;
+    margin-left: 13%;
+}
+
+.application-from-item{
+    text-align: left;
+   
+    padding: 20px;
+    margin-top: 10%;
+    
+    transition: transform 0.3s ease;
+}
+
+.application-from-item:hover {
+    transform: translateY(-5px);
+}
+
+.application-from-item img {
+    width: 60px;
+    height: auto;
+    max-width: 80px;
+    margin-bottom: 15px;
+}
+
+.application-from-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #27ae60;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #1e8449;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .application-form-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .application-form-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on small screens */
+    }
+    
+    .application-form-item img {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .application-form-grid {
+        grid-template-columns: 1fr; /* 1 column on extra small screens */
+    }
+
+    .application-form-header h2 {
+        font-size: 1.2rem;
+    }
+    
+    .application-form-item {
+        padding: 15px;
+    }
+}
