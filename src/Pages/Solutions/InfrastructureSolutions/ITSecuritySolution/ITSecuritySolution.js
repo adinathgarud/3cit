@@ -1,36 +1,43 @@
 import React, { useState } from 'react';
 import imageUrl from '../../../../assets/demo-startup-who-we-are-02.jpg';
 import './ITSecuritySolution.css';
+import DeviceConfig from '../../../../assets/data-center-storage.png'
+import Devicedeployment from '../../../../assets/DeviceDeployment.png'
+import remotemanage from '../../../../assets/RemoteManagement.png'
+import virtualization from '../../../../assets/Virtualization.png'
+import assetracking from '../../../../assets/tracking.png'
+import dataprotection from '../../../../assets/DataProtection.png'
+//import Analytics from '../../../../assets/analytics.png'
 
 const ITSecuritySolution = () => {
   const [services] = useState([
     {
-      icon: '💻',
+      icon: DeviceConfig,
       title: 'Device Configuration',
       description: 'Our team of experts can configure devices as per Customers corporate policies and security standards to ensure a secure and consistent end-user experience'
     },
     {
-      icon: '📄',
+      icon: Devicedeployment,
       title: 'Device Deployment',
       description: 'We can efficiently deploy new devices from different makes for Client employees through a simplified process, which includes setting up user profiles, software installation and updates, and device activation.'
     },
     {
-      icon: '👨‍💻',
+      icon: remotemanage,
       title: 'Remote Management',
       description: 'We provide 24/7 remote management support for all devices, which includes troubleshooting, software updates, performance monitoring, and security patching.'
     },
     {
-      icon: '📱',
+      icon: virtualization,
       title: 'Asset Tracking',
       description: 'We can track all devices in use by your employees, including laptops, smartphones, and tablets, allowing you to have a clear understanding of who has your hardware, ensuring optimal performance and reliability’s access to what information and when.'
     },
     {
-      icon: '🔐',
+      icon: assetracking,
       title: 'Data Protection',
       description: 'Our service includes data protection policies that ensure your company data remains secure on all end user devices. We take a proactive approach to prevent data breaches, including deploying high-quality antivirus and antimalware software'
     },
     {
-      icon: '📊',
+      icon: dataprotection,
       title: 'Reporting and Analytics',
       description: 'We provide detailed reporting and analytics on device usage and performance data, allowing you to make informed decisions about device'
     },
@@ -68,7 +75,7 @@ const ITSecuritySolution = () => {
         <div className="services-container">
           {services.map((service, index) => (
             <div className="service-card" key={index}>
-              <div className="icon">{service.icon}</div>
+              <div className="icon"><img src={service.icon} alt={service.title} /></div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
             </div>

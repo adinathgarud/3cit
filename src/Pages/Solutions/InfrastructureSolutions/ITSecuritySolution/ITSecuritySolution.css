@@ -2,14 +2,13 @@
 .digital-immunity-container {
   background-image: url('../../../../assets/Add-a-subheading-12.png');
   display: grid;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   height: 95vh;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -110px;
   z-index: -1;
-  align-items: end;
   position: relative;
   background-attachment: fixed;
 }
@@ -17,7 +16,6 @@
 .digital-immunity-content {
   text-align: center;
   color: white;
-  
 }
 
 .background-contain {
@@ -96,9 +94,12 @@
 }
 
 .icon {
-  font-size: 2.5rem;
   color: #00a344;
   margin-bottom: 10px;
+}
+.icon img{
+  width: 60px;
+  height: auto;
 }
 
 .service-card h3 {
