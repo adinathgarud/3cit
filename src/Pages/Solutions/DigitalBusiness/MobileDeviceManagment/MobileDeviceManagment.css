@@ -4,7 +4,7 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -110px;
@@ -102,6 +102,7 @@
   @media (max-width: 1200px) {
     .mdm-solution-container {
       flex-direction: column;
+      height: 100vh;
     }
   
     .mdm-image-content {
@@ -116,7 +117,7 @@
   
   @media (max-width: 768px) {
     .mdm-solutions {
-      height: 50vh;
+      height: 200vh;
     }
   
     .mdm-content h1 {
@@ -134,7 +135,7 @@
   
   @media (max-width: 480px) {
     .mdm-solutions {
-      height: 40vh;
+      height: 200vh;
     }
   
     .mdm-content h1 {

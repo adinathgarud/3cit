@@ -1,7 +1,7 @@
 import React from 'react';
 import './MobileDeviceManagment.css';
 import MobileDeviceBackImg from '../../../../assets/Add-a-subheading-11.png';
-import screenshot1 from '../../../../assets/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.jpg';
+import screenshot1 from '../../../../assets/Mobile-App-Landing-page-1-300x144.png';
 
 const MobileDeviceManagment = () => {
   return (

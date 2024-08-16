@@ -1,173 +1,196 @@
 /* General Styles */
 .cloud-service {
-    background-image: url('../../../../assets/Add-a-subheading-12.png'); /* Replace with your actual image path */
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -110px;
-    z-index: -1;
-  }
+  background-image: url('../../../../assets/Add-a-subheading-12.png'); /* Replace with your actual image path */
+  display: grid;
+  align-items: end;
+  justify-content: center;
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -110px;
+  z-index: -1;
+}
+
+.cloud-content {
+  text-align:center;
   
-  .cloud-content {
-    text-align: center;
-    color: white;
-    font-family: 'Arial, sans-serif';
-  }
-  
+  color: white;
+  font-family: 'Arial, sans-serif';
+}
+
+.cloud-service-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 10%;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cloud-text-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.cloud-image-content {
+  flex: 1;
+  text-align: center;
+}
+
+.cloud-image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cloud-text-content h2 {
+  color: black;
+  font-size: 60px;
+}
+
+.cloud-text-content p {
+  color: #575050;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cloud-services {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10% 10%;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.service {
+  flex: 1 1 calc(33.333% - 20px);
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.service .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  color: #00a344;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cloud-header {
+  position: relative;
+  height: 95vh;
+  background: #00a344;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cloud-overlay {
+  background: rgba(131, 115, 115, 0.1);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cloud-header-content {
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding: 0 20px; /* Added padding for better spacing */
+}
+
+.cloud-header-content h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.cloud-header-content h1 {
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.cloud-header-content img {
+  width: 60px;
+  height: auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
   .cloud-service-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 40px 10%;
-    background-color: aliceblue;
-    padding: 20px;
-    border-radius: 10px;
+    flex-direction: column;
   }
-  
-  .cloud-text-content {
-    flex: 1;
-    padding: 20px;
-  }
-  
+
   .cloud-image-content {
-    flex: 1;
-    text-align: center;
+    margin-top: 20px;
   }
-  
-  .cloud-image-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .cloud-service {
+    height: 50vh;
   }
-  
-  .cloud-text-content h2 {
-    color: #00a344;
+
+  .cloud-content h1 {
+    font-size: 2rem;
   }
-  
-  .cloud-text-content p {
-    color: #555;
-    line-height: 1.6;
-    font-size: 1rem;
+
+  .cloud-service-container {
+    margin: 20px 5%;
   }
-  
+
   .cloud-services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 10%;
-    background-color: #f0f4f8;
-    padding: 20px;
-    border-radius: 10px;
+    flex-direction: column;
   }
-  
+
   .service {
-    flex: 1 1 45%;
-    background: white;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    flex: 1 1 100%;
+    margin: 10px 0;
   }
-  
-  .service .icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  .service h3 {
-    color: #00a344;
-    margin-bottom: 10px;
-  }
-  
-  .service p {
-    color: #555;
-    line-height: 1.6;
-    font-size: 1rem;
-  }
-  
-  .cloud-header {
-    position: relative;
-    height: 40vh;
-    background: #00a344;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .cloud-overlay {
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .cloud-header-content {
-    color: white;
-    text-align: center;
-  }
-  
-  .cloud-header-content .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
+
   .cloud-header-content h1 {
-    font-size: 2rem;
-    margin-top: 10px;
+    font-size: 2rem; /* Adjusted size for better readability */
+    margin-top: 20px; /* Added margin for spacing */
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 1200px) {
-    .cloud-service-container {
-      flex-direction: column;
-    }
-  
-    .cloud-image-content {
-      margin-top: 20px;
-    }
+
+  .cloud-header-content {
+    padding: 0 30px; /* Increased padding for more spacing on smaller screens */
   }
-  
-  @media (max-width: 768px) {
-    .cloud-service {
-      height: 50vh;
-    }
-  
-    .cloud-content h1 {
-      font-size: 2rem;
-    }
-  
-    .cloud-service-container {
-      margin: 20px 5%;
-    }
-  
-    .cloud-services {
-      flex-direction: column;
-    }
-  
-    .service {
-      flex: 1 1 100%;
-      margin: 10px 0;
-    }
-  
-    .cloud-header-content h1 {
-      font-size: 1.5rem;
-    }
+}
+
+@media (max-width: 480px) {
+  .cloud-service {
+    height: 40vh;
   }
-  
-  @media (max-width: 480px) {
-    .cloud-service {
-      height: 40vh;
-    }
-  
-    .cloud-content h1 {
-      font-size: 1.5rem;
-    }
+
+  .cloud-content h1 {
+    font-size: 1.5rem;
   }
-  
+
+  .cloud-header-content h1 {
+    font-size: 1.5rem; /* Reduced size for small screens */
+    margin-top: 30px; /* Increased margin for better spacing */
+  }
+
+  .cloud-header-content {
+    padding: 0 20px; /* Adjusted padding for smaller screens */
+  }
+}
