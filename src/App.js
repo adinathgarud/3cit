@@ -65,6 +65,9 @@ import Areturnthird from './Pages/Investors/Financial/Areturnthird';
 import Shearholdingone from './Pages/Investors/ShareHoldingPatterns/Shearholdingone';
 import Shearholdingtow from './Pages/Investors/ShareHoldingPatterns/Shearholdingtow';
 import Moaoa from './Pages/Investors/MaterialDocuments/Moaoa';
+import NonApplicabilityofReg from './Pages/Investors/BSEIntimation/NonApplicabilityofReg';
+import OutcomeOfBoardMeeting from './Pages/Investors/BSEIntimation/OutcomeOfBoardMeeting';
+import ClosurOfTradingWindows from './Pages/Investors/BSEIntimation/ClosurOfTradingWindows';
 
 
 
@@ -148,6 +151,11 @@ const App = () => {
                 <Route path="/share-holder-as-on-10/06/2024" element={<Shearholdingtow />} />
 
                 <Route path="/moa-aoa" element={<Moaoa />} />
+
+                
+                <Route path="/closure-of-trading-windows" element={<ClosurOfTradingWindows />} />
+                <Route path="/outcome-of-board-meeting" element={<OutcomeOfBoardMeeting />} />
+                <Route path="/non-applicability-of-reg" element={<NonApplicabilityofReg />} />
                 
                
             </Routes>

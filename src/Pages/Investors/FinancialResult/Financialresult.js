@@ -1,16 +1,12 @@
 import React from 'react'
 import './Financialresult.css'
-import bannerImage from '../../../assets/financial-bg.jpg'
-
+//import bannerImage from '../../../assets/financial-bg.jpg'
+import resulticon from '../../../assets/datacenter_computer_services.png'
 const Financialresult = () => {
   return (
-    
-    
-    
-        
             <>
-            <div className="finacial-result">
-                <img src={bannerImage} alt="Financial Result" className="result-image" />
+            <div className="finacial-result-main">
+               
                 <div className="result-text">
                     <h1>Investors</h1>
                     <p className="result-title">Financial Result</p>
@@ -18,12 +14,12 @@ const Financialresult = () => {
             </div>
         
     
-        <div className="financial-container">
-        <div className="financial-item">
-            <div className="icon">
-                <img src="E:/React js/myappc/src/images/financial-document_17083565.png"/>
+        <div className="financial-result-container">
+        <div className="financial-result-item">
+            <div className="result-icon">
+                <img src={resulticon} alt='Icon'/>
             </div>
-            <p className="financial-title">Financial Result 03.07.24</p>
+            <p className="financial-result-title">Financial Result 03.07.24</p>
             <a href="#" className="download-button">Download</a>
         </div>
     </div>
