@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Menu.css';
 import menuIcon from '../../src/assets/menu-icon.png';
+import arrowDownIcon from '../../src/assets/arrow-down-icon.png'; // Add your arrow-down icon here
 
 const Menu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +19,7 @@ const Menu = () => {
             <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
                 <li><Link to="/3cit" onClick={toggleMenu}>Home</Link></li>
                 <li>
-                    <Link to="/#">About Us</Link>
+                    <Link to="#">About Us <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                     <ul className="submenu">
                         <li><Link to="/aboutus/company" onClick={toggleMenu}>Company</Link></li>
                         <li><Link to="/aboutus/team" onClick={toggleMenu}>Our Team</Link></li>
@@ -27,10 +28,10 @@ const Menu = () => {
                     </ul>
                 </li>
                 <li>
-                    <Link to="#">Solutions</Link>
+                    <Link to="#">Solutions <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                     <ul className="submenu">
                         <li>
-                            <Link to="#">Infrastructure Solutions</Link>
+                            <Link to="#">Infrastructure Solutions <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                             <ul className="submenu">
                                 <li><Link to="/solutions/infrastructure-solutions/end-user-design" onClick={toggleMenu}>End User & Design</Link></li>
                                 <li><Link to="/solutions/infrastructure-solutions/data-center-solutions" onClick={toggleMenu}>Data Center Solutions</Link></li>
@@ -42,7 +43,7 @@ const Menu = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link to="#">Digital Business</Link>
+                            <Link to="#">Digital Business <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                             <ul className="submenu">
                                 <li><Link to="/solutions/digital-business/mobile-device-management" onClick={toggleMenu}>Mobile Device Management</Link></li>
                                 <li><Link to="/solutions/digital-business/business-software" onClick={toggleMenu}>Business Software</Link></li>
@@ -50,7 +51,7 @@ const Menu = () => {
                             </ul>
                         </li>
                         <li>
-                            <Link to="#">Consulting Solution</Link>
+                            <Link to="#">Consulting Solution <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                             <ul className="submenu">
                                 <li><Link to="/solutions/consulting-solution/fms-solutions" onClick={toggleMenu}>FMS Solutions</Link></li>
                                 <li><Link to="/solutions/consulting-solution/it-infrastructure-renting-solutions" onClick={toggleMenu}>IT Infrastructure Renting Solutions</Link></li>
@@ -62,10 +63,10 @@ const Menu = () => {
                     </ul>
                 </li>
                 <li>
-                    <Link to="#">Investors</Link>
+                    <Link to="#">Investors <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                     <ul className="submenu">
                         <li>
-                            <Link to="#">IPO</Link>
+                            <Link to="#">IPO <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                             <ul className="submenu">
                                 <li><Link to="/investors/ipo/draft-prospect" onClick={toggleMenu}>Draft Prospect</Link></li>
                                 <li><Link to="/investors/ipo/prospect" onClick={toggleMenu}>Prospect</Link></li>

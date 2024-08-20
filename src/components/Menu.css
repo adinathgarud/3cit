@@ -12,7 +12,6 @@ nav {
 .menu-icon {
     display: none;
     cursor: pointer;
-    
 }
 
 .menu-icon img {
@@ -36,11 +35,24 @@ nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 17px;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, letter-spacing 0.3s ease; /* Add transition for letter-spacing */
 }
 
 nav ul li a:hover {
     color: #ddd;
+    letter-spacing: 1px; /* Add letter-spacing effect on hover */
+}
+
+.dropdown-arrow {
+    width: 22px; /* Adjust size as needed */
+    height: auto;
+    margin-left: 3px;
+    vertical-align: middle;
+    transition: transform 0.3s ease; /* Add rotation animation */
+}
+
+nav ul li:hover .dropdown-arrow {
+    transform: rotate(180deg); /* Rotate arrow on hover */
 }
 
 /* Submenu */
@@ -49,10 +61,10 @@ nav ul li ul.submenu {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #333;
+    background-color: #ffffff;
     padding: 10px 0;
     list-style-type: none;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease-in-out;
     margin-top: 1%;
@@ -78,12 +90,13 @@ nav ul li ul.submenu li ul.submenu {
 }
 
 nav ul li ul.submenu li a {
-    color: white;
-    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    
 }
 
 nav ul li ul.submenu li a:hover {
-    color: #ddd;
+    color: #201d1d;
 }
 
 /* Fade-in animation */
@@ -104,11 +117,22 @@ nav ul li ul.submenu li a:hover {
         display: block;
     }
 
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        transition: color 0.3s ease, letter-spacing 0.3s ease; /* Add transition for letter-spacing */
+    }
+    
+    nav ul li a:hover {
+        color: #000000;
+        letter-spacing: 1px; /* Add letter-spacing effect on hover */
+    }
     nav ul {
         display: none;
         flex-direction: column;
         width: fit-content;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         position: absolute;
         top: 60px;
         left: 0;

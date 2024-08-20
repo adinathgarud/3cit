@@ -8,7 +8,7 @@
 /* Hero section styles */
 .hero {
    
-    padding: 180px 20px; /* Reduced padding for better balance */
+    padding: 180px 0px; /* Reduced padding for better balance */
     color: white;
     display: flex;
     flex-direction: column;
