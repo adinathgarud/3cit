@@ -1,11 +1,41 @@
-
-
 .pdf-viewer-container {
-    padding-left: 20px;   /* Add padding on the left */
-    padding-right: 20px;  /* Add padding on the right */
-    overflow: hidden;     /* Hide any overflow */
-    width: 75%;          /* Ensure the container takes full width */
-    height: 120vh;        /* Set a fixed height or adjust as needed */
-    box-sizing: border-box; /* Ensure padding doesn't affect the total width */
+    padding-left: 20px;         /* Add padding on the left */
+    padding-right: 20px;        /* Add padding on the right */
+    overflow:visible;           /* Hide any overflow */
+    width: 90%;      
+    position: relative;   
+        
+    height: 120vh;              /* Set a fixed height or adjust as needed */
+    box-sizing: border-box;     /* Ensure padding doesn't affect the total width */
     margin: 3% auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .pdf-viewer-container {
+        height: 100vh;         /* Adjust height for large screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .pdf-viewer-container {
+        height: 90vh;          /* Adjust height for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .pdf-viewer-container {
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 80vh;          /* Adjust height for tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .pdf-viewer-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;           /* Full width for small screens */
+        height: 70vh;          /* Adjust height for small screens */
+    }
 }

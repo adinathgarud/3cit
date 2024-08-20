@@ -1,6 +1,6 @@
 import React from 'react'
 import PDFViewer from '../../../components/PDFViewer/PDFViewer'
-import samplePDF from '../../../assets/PDF/Banker Agreement – 3CIT Solution.pdf';
+import samplePDF from '../../../assets/PDF/Financial/Annual-Report_2020-21 – 3CIT Solution.pdf';
 
 
 const Areportone = () => {

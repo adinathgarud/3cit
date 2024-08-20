@@ -1,5 +1,16 @@
 .draft-prospect-container{
     display: flex;
     justify-content: center;
-    z-index: -1;
+   
+   
+   
+}
+
+.draft-main{
+    display: block;
+    justify-content: center;
+    position: relative;
+    height: 20vh;
+   z-index: -1;
+    margin-top: -110px;
 }
