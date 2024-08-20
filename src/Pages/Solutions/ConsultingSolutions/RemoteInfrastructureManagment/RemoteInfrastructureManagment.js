@@ -8,14 +8,14 @@ const RemoteInfrastructureManagment = () => {
     <>
     <div className="Remote-Service">
       <div className="Remote-content">
-        <h1>Remote Infrastructure management</h1>
+        <h1>Remote Infrastructure Management</h1>
       </div>
     </div>
      
       
       <div className="Remote-Service-container">
       <div className="Remote-text-content">
-          <h2>Remote Infrastructure management</h2>
+          <h2>Remote Infrastructure Management</h2>
           <p>
           Our company provides remote infrastructure management solutions that offer a multitude of benefits to our customers. In today's evolving landscape, the need to track and monitor both hardware and software has become paramount,
           especially with the widespread transition to remote work arrangements spurred by the pandemic. 

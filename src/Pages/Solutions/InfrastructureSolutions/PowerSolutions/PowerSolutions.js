@@ -1,9 +1,9 @@
 import React from 'react';
 import PowerImg from '../../../../assets/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.jpg';
 import './PowerSolutions.css';
-import pdu from '../../../../assets/datacenter_computer_services.png';
-import ups from '../../../../assets/datacenter_services1.png';
-import battery from '../../../../assets/datacenter_networking_services.png';
+import pdu from '../../../../assets/Distrubuted-power.png';
+import ups from '../../../../assets/UninrritublePower.png';
+import battery from '../../../../assets/Battries.png';
 const PowerSolutions = () => {
   return (
     <>

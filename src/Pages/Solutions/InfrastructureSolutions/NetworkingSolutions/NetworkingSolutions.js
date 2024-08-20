@@ -1,21 +1,24 @@
 import React, { useState } from 'react';
 import './NetworkingSolutions.css';
 import NetWork from '../../../../assets/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.jpg';
+import NetworkOpenSystem from '../../../../assets/Open-System.png';
+import NetworkCloseSystem from '../../../../assets/Close-System.png';
+import NetWorkcomputernetwork from '../../../../assets/Computer-Network.png';
 
 const NetworkingSolutions = () => {
   const [services] = useState([
     {
-      icon: '💻',
+      icon: NetworkOpenSystem,
       title: 'Open System',
       description: 'Denotes a system integrated into the network and configured for seamless communication.'
     },
     {
-      icon: '📄',
+      icon:  NetworkCloseSystem,
       title: 'Close System',
       description: 'In direct contrast to an open system, it characterizes a system that lacks communicative accessibility within the network architecture.'
     },
     {
-      icon: '👨‍💻',
+      icon: NetWorkcomputernetwork,
       title: 'Computer Network',
       description: 'This refers to the interconnectedness of multiple hosts or devices, establishing links through various pathways primarily for the transmission and reception of data across media.'
     },
@@ -52,7 +55,7 @@ const NetworkingSolutions = () => {
         <div className="networking-solutions-NetworkingSolutionServicesCard-container">
           {services.map((service, index) => (
             <div className="networking-solutions-service-card" key={index}>
-              <div className="networking-solutions-icon">{service.icon}</div>
+              <div className="networking-solutions-icon"><img src={service.icon} alt={service.title} /></div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
             </div>

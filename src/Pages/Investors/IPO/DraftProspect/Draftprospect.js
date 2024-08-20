@@ -5,7 +5,7 @@ import './Draftprospect.css'
 const DraftprospectPage = () => {
     return (
         <>
-        <div className="draft-main"></div>
+        
         <div className='draft-prospect-container'>
             <PDFViewer pdfFile={samplePDF} />
         </div>

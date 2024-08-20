@@ -1,6 +1,6 @@
 import React from 'react';
 import './MobileDeviceManagment.css';
-import MobileDeviceBackImg from '../../../../assets/Add-a-subheading-11.png';
+import MobileDeviceBackImg from '../../../../assets/partial-view-of-businessman-using-smartphone-at-wo-2023-11-27-04-53-10-utc-scaled.jpg';
 import screenshot1 from '../../../../assets/Mobile-App-Landing-page-1-300x144.png';
 
 const MobileDeviceManagment = () => {
@@ -9,7 +9,7 @@ const MobileDeviceManagment = () => {
       <div className="mdm-solutions">
         <div className="mdm-content">
           <h2>#3CIT MDM Solutions</h2>
-          <h1>Safeguarding Mobility, Enhancing Productivity</h1>
+          <h1>Safeguarding Mobility, <br />Enhancing Productivity</h1>
         </div>
       </div>
      

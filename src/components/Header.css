@@ -4,8 +4,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #ECECEC78;
+    background-color: #b9adad78;
     padding: 10px 20px;
     height: 8vh;
-    
+    width: 100%;
+    z-index: 1000;
+    position: relative;
 }

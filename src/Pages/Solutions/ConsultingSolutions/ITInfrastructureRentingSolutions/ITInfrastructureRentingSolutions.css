@@ -2,12 +2,15 @@
     background-image:url("../../../../assets/front_It_Infrastructure_renting.png");
       background-size: cover;
       background-position: center;
-      height: 95vh;
+      height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: end;
+      margin-top: -110px;
       color: #fff;
       text-align: center;
+      position: relative;
+      z-index: -1;
     }
     
     .Infrastructure-content {

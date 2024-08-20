@@ -1,112 +1,104 @@
+/* General Styles */
 .IT-Service {
-    background-image:url("../../../../assets/front-it-managed-service.png");
-      background-size: cover;
-      background-position: center;
-      height: 95vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #fff;
-      text-align: center;
-    }
-    
-    .IT-content {
-      
-      padding: 20px;
-      border-radius: 10px;
-    }
-    
-    h1 {
-      font-size: 3rem;
-      margin: 0.5em 0;
-     
-      
-    }
-    
-   
-    
-    /*IT Managed servcie  elementor*/
-  
-    .IT-Service-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      padding: 80px;
-      background-color: #f8f9fa;
-      color: #333;
-      
-  }
-  
-  .IT-text-content {
-      flex: 1;
-      margin-right: 20px;
-  }
-  
-  .IT-text-content h2 {
-      font-size: 2.8rem;
-      margin-bottom: 20px;
-      font-weight: bold;
-      padding-left: 100px;
-      
-  }
-  
-  .It-text-content p {
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      
-  }
-  
-  .IT-text-content ul {
-      list-style-type: disc;
-      margin-left: 20px;
-  }
-  
-  .IT-text-content ul li {
-      font-size: 1,1rem;
-      margin-bottom: 10px;
-  }
-  
-  .IT-image-content {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  .IT-image-content img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-  }
-
-
-  /*it managed our services*/
-  .services {
+    background-image: url("../../../../assets/front-it-managed-service.png");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
     text-align: center;
-    padding: 40px;
-    background-color: #fff;
+    position: relative;
+    margin-top: -110px;
+    z-index: -1;
 }
 
-.services h2 {
-    font-size: 2.5rem;
+.IT-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0.5em 0;
+}
+
+/* IT Managed Service elementor */
+.IT-Service-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.IT-text-content {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 600px;
+}
+
+.IT-text-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.IT-text-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
     margin-bottom: 20px;
 }
 
-.services .highlight {
+.IT-image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+.IT-image-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* IT Managed Services - Our Services */
+.it-services {
+    text-align: center;
+    align-self: center;
+    display: grid;
+    justify-content: center;
+    background-color: #fff;
+    margin: 10% 0%;
+}
+
+.it-services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.it-services .highlight {
     color: #4CAF50;
 }
 
 .services-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .services-list ul {
     list-style: none;
     padding: 0;
     text-align: left;
+    flex: 1;
 }
 
 .services-list li {
@@ -115,3 +107,45 @@
     color: #333;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .IT-Service-container {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .IT-text-content,
+    .IT-image-content {
+        max-width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .IT-text-content {
+        margin-bottom: 20px;
+    }
+
+    .services-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .services-list ul {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .IT-text-content h2 {
+        font-size: 2rem;
+    }
+
+    .services-list ul {
+        margin-bottom: 15px;
+    }
+}
