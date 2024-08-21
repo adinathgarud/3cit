@@ -1,6 +1,6 @@
 import React from 'react';
 import './DataCenterSolutions.css';
-import DataCenter from '../../../../assets/distance-online-lecture-side-view-of-a-mixed-race-2023-11-27-05-11-45-utc-scaled.jpg';
+import DataCenter from '../../../../assets/DataCenterManagement.jpg';
 import DataStorage from '../../../../assets/data-center-storage.png';
 import DataComputer from '../../../../assets/data-center-computer.png';
 import DataNetworking from '../../../../assets/data-center-network.png';

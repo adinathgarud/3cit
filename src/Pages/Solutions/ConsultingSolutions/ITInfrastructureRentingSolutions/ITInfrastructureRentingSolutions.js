@@ -7,7 +7,7 @@ const ITInfrastructureRentingSolutions = () => {
     <>
     <div className="Infrastructure-Service">
       <div className="Infrastructure-content">
-        <h1>It Infrastructure Renting</h1>
+        <h1>IT Infrastructure Renting</h1>
       </div>
     </div>
      

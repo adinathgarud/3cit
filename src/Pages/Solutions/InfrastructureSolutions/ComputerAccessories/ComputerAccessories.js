@@ -1,5 +1,5 @@
 import React from 'react';
-import computerImage from '../../../../assets/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.jpg';
+import computerImage from '../../../../assets/digital-device-technology-equipment-gadget-2023-11-27-05-16-42-utc-300x200.jpg';
 import './ComputerAccessories.css';
 
 const ComputerAccessories = () => {

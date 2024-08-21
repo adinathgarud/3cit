@@ -365,6 +365,7 @@
     margin: 10%;
     font-size: 1.4em; /* Slightly reduced font size */
     color: #232323;
+    text-align: center;
 }
 
 .solution-card p {
@@ -411,9 +412,9 @@
   .home-service-content {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     color: white;
-    height: 59vh;
+    height: 68vh;
     width: 100%;
     box-sizing: border-box;
     padding-left: 50px;
@@ -472,6 +473,7 @@
     }
   
     .home-service-title {
+       
       font-size: 16px;
     }
   

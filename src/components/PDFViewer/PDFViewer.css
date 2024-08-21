@@ -4,7 +4,7 @@
     overflow:visible;           /* Hide any overflow */
     width: 90%;      
     position: relative;   
-        
+      z-index: 1;  
     height: 120vh;              /* Set a fixed height or adjust as needed */
     box-sizing: border-box;     /* Ensure padding doesn't affect the total width */
     margin: 3% auto;

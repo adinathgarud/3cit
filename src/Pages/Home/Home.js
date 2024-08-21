@@ -14,8 +14,9 @@ import "slick-carousel/slick/slick-theme.css";
     import homeconsulting from '../../assets/home-consulting.png';
     import demo_startup_business_process from '../../assets/demo-startup-business-process.jpg';
     import business_couple_with_computer_2023_11_27_05_37_11_utc_scaled from '../../assets/business-couple-with-computer-2023-11-27-05-37-11-utc-scaled.jpg';
-   
-    import home_service_image from '../../assets/partial-view-of-businessman-using-smartphone-at-wo-2023-11-27-04-53-10-utc-scaled.jpg';
+   import CuttingedgeITSolutions from '../../assets/Cutting-edgeITSolutions.jpg'
+    import Highqualityservices from '../../assets/Highqualityservices.jpg';
+    import UniqueExperience from '../../assets/UniqueExperience.jpg'
     
     import './Home.css'; // Import your CSS file
 import LogoSlider from '../../components/LogoSlider/LogoSlider';
@@ -89,7 +90,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
                 <div className="content">
                     <div className="card">
                         <h2>Cutting-edge IT Solutions</h2>
-                        <img src={business_couple_with_computer_2023_11_27_05_37_11_utc_scaled} alt="Cutting-edge IT Solutions" />
+                        <img src={CuttingedgeITSolutions} alt="Cutting-edge IT Solutions" />
                         <p>Offering innovative and tailored technology services to address the evolving needs of businesses.</p>
                     </div>
                     <div className="card">
@@ -107,7 +108,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
 
                 <div className="home-service-container">
                     <div className="home-service-card">
-                        <img src={home_service_image} alt="A Trusted Partner In Your Digital Business" className="home-service-image" />
+                        <img src={Highqualityservices} alt="A Trusted Partner In Your Digital Business" className="home-service-image" />
                             <div className="home-service-content">
                                 <h3 className="home-service-title">High quality services</h3>
                                 <p className="home-service-description">A Trusted Partner In Your <br/>Digital Business</p>
@@ -115,7 +116,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
                             </div>
                     </div>
                     <div className="home-service-card">
-                        <img src={home_service_image} alt="3CIT Igniting Growth Strategies for Your Success" className="home-service-image" />
+                        <img src={UniqueExperience} alt="3CIT Igniting Growth Strategies for Your Success" className="home-service-image" />
                             <div className="home-service-content">
                                 <h3 className="home-service-title">Unique Experience</h3>
                                 <p className="home-service-description">3CIT Igniting Growth<br/> Strategies for Your Success</p>

@@ -6,9 +6,9 @@
   background-repeat: no-repeat;
   margin-top: -110px;
   position: relative;
-  height: 95vh;
+  height: 100vh;
   justify-items: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   align-items: end;
   z-index: -1;
 }

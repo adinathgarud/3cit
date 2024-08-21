@@ -1,64 +1,96 @@
-/* Footer Styles */
+/* src/components/Footer.css */
+
 .footer {
     background-color: #ffffff;
-    color: #b4a6a6;
+    color: #ffffff;
     padding: 40px 20px;
-    
+    text-align: left;
+    font-family: 'Arial', sans-serif;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-column {
-    flex-basis: 30%;
+    flex: 1 1 300px;
     margin-bottom: 20px;
-    color: #b4a6a6;
-}
-
-.footer-logo {
-    width: 150px;
-    margin-bottom: 20px;
+    padding: 0 15px;
 }
 
 .footer-column h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #b4a6a6;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #333333;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
 }
 
 .footer-column p {
     font-size: 1em;
-    line-height: 1.5;
-    color: #837979;
+    line-height: 1.6;
+    margin-top: 25px;
+    color: #776c6c;
+}
+.footer-column ul {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #776c6c;
 }
 
-.footer-column ul {
-    list-style-type: none;
+
+.footer-logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #333333;
+}
+
+.footer ul {
+    list-style: none;
     padding: 0;
 }
 
-.footer-column ul li {
+.footer ul li {
     margin-bottom: 10px;
 }
 
-.footer-column ul li a {
-    color: #383333;
-    text-decoration: none;
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #cccccc;
+    font-size: 0.8em;
 }
 
-.footer-column ul li a:hover {
-    text-decoration: underline;
+.footer-bottom p {
+    margin: 0;
+    color: #333333;
 }
 
-/* Responsive Styles */
+/* Responsive Design */
 @media (max-width: 768px) {
-    .footer-column {
-        flex-basis: 100%;
+    .footer-container {
+        flex-direction: column;
         text-align: center;
+    }
+
+    .footer-column {
+        flex: 1 1 100%;
+    }
+
+    .footer-column.logo-info {
+        margin-bottom: 30px;
     }
 }

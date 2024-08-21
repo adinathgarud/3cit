@@ -4,11 +4,12 @@
   display: grid;
   align-items: end;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -110px;
   z-index: -1;
+  position: relative;
 }
 
 .cloud-content {

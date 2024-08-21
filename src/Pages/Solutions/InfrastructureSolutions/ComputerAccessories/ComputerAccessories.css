@@ -4,11 +4,13 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: -110px;
   z-index: -1;
+  position: relative;
+  background-attachment: scroll;
   align-content: end;
 }
 
@@ -45,8 +47,8 @@
 
 .computer-background-contain-img img {
   max-width: 100%;
-  height: auto;
-  border-radius: 10px;
+  height: 350px;
+ 
 }
 
 .computer-sub-heading {

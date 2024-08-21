@@ -1,5 +1,5 @@
 import React from 'react';
-import PowerImg from '../../../../assets/close-up-view-of-internet-equipment-and-cables-in-2023-11-27-05-09-23-utc-scaled.jpg';
+import PowerImg from '../../../../assets/engineer-checking-and-inspecting-at-mdb-panel-the-2023-11-27-05-24-51-utc-scaled.jpg';
 import './PowerSolutions.css';
 import pdu from '../../../../assets/Distrubuted-power.png';
 import ups from '../../../../assets/UninrritublePower.png';

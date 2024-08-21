@@ -1,5 +1,5 @@
 .multibrand-container {
-  background-image: url('../../../../assets/Add-a-subheading-4.png');
+  background-image: url('../../../../assets/Untitled-design-17.png');
   background-size: cover;
   background-position: center;
   margin-top: -110px;
@@ -102,13 +102,13 @@ p {
 }
 
 .hardware-support-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  margin-bottom: 20px;
+  width: 100%;
+  
+}
+
+.hardware-support-content img{
+    width: 80%;
+    height: 400px;
 }
 
 .support-item {
@@ -144,7 +144,7 @@ p {
   margin-bottom: 40px;
 }
 
-.contact-us button {
+.contact-us button  {
   background-color: #219653;
   color: #fff;
   font-size: 1rem;
@@ -158,6 +158,14 @@ p {
 .contact-us button:hover {
   background-color: #f2f2f2;
   color: #219653;
+}
+
+.contact-us button a{
+  color: #fff;
+  text-decoration: none;
+}
+.contact-us button a:hover{
+  color: #333;
 }
 
 /* Responsive Styles */

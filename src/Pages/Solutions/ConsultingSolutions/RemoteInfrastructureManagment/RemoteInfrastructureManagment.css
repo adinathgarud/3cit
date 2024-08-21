@@ -1,8 +1,8 @@
 .Remote-Service {
-      background-image:url("../../../../assets/Add-a-subheading-15\ \(1\).png");
+      background-image:url("../../../../assets/Add-a-subheading-17.png");
       background-size: cover;
       background-position: center;
-      height: 95vh;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: end;
@@ -35,7 +35,7 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      padding: 80px;
+      padding: 10px;
       background-color: #f8f9fa;
       color: #333;
       margin: 10%;
@@ -65,7 +65,7 @@
   
   
   .Remote-image-content {
-      flex: 1;
+      
       display: flex;
       justify-content: center;
       align-items: center;
@@ -73,7 +73,7 @@
   
   .Remote-image-content img {
       max-width: 100%;
-      height: auto;
+      height: 350px;
      
   }
 
@@ -111,12 +111,12 @@
     
     display: flex;
     justify-content: center;
-    
+    width: 50%;
 }
 
 .Remote-management-image-content img {
-    max-width: 80%;
-    height: auto;
+    max-width: 100%;
+    height: 230px;
     
 }
 

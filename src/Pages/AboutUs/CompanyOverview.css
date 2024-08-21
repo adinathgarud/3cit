@@ -149,6 +149,9 @@
   opacity: 0.8;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.play-icon:hover{
+  cursor: pointer;
+}
 
 .left2-company .video-play2 .video-container .play-icon-container .play-icon img {
   width: 50px;
@@ -279,8 +282,10 @@
 
 .company-card-card h2 {
   margin: 5%;
+  text-align: center;
   font-size: 1em;
   color: #232323;
+  
 }
 
 .company-card-card p {

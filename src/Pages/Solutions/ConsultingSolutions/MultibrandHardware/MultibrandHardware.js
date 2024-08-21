@@ -1,11 +1,11 @@
 import React from 'react'
 import './MultibrandHardware.css'
-import supportImage from '../../../../assets/focused-man-making-conference-call-on-laptop-while-2023-11-27-04-51-34-utc-300x200.jpg'
+import supportImage from '../../../../assets/VNU_M652_01.png'
 import preventation from '../../../../assets/home-competency.png'
 import documentation from '../../../../assets/home-digital.png'
 import remote from '../../../../assets/RemoteManagement.png'
 import vendor from '../../../../assets/home-infrastructure.png'
-import HardwareImges from '../../../../assets/remote-management-featured (1).png'
+import BreakFixService from '../../../../assets/1111-300x131.png'
 
 const MultibrandHardware = () => {
   return (
@@ -66,11 +66,11 @@ const MultibrandHardware = () => {
 
         <div className="hardware-support-container">
             <div className="hardware-support-content">
-            <img src={HardwareImges} alt="Multibrand Hardware" />
+            <img src={BreakFixService} alt="Multibrand Hardware" />
             </div>
             </div>
             <div className="contact-us">
-                <button>Contact Us</button>
+                <button><a href='/contact'>Contact Us</a></button>
             </div>
 </>
   )

@@ -10,26 +10,28 @@
   text-align: center;
   padding: 200px 20px;
   color: white;
-  background-image: url('../assets/demo-startup-contact-title-bg-300x169.jpg');
+  background-image: url('../assets/top-view-dark-modern-workplace-with-tablet-coffee-cup-office-supplies-black-desk.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   margin-top: -110px;
+  align-content: end;
   z-index: -1;
 }
 
 .contact-hero h1 {
   font-size: 1em;
   margin-bottom: 20px;
-  color: #b4abab;
+  color: #ffffff;
 }
 
 .contact-hero p {
   font-size: 3em;
   margin-bottom: 40px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 .contact-cards {

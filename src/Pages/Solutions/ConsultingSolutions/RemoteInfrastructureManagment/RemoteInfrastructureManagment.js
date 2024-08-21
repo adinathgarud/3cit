@@ -1,8 +1,8 @@
 import React from 'react'
 
 import './RemoteInfrastructureManagment.css';
-import remotebackgroundImage from '../../../../assets/remote-management-featured (1).png';
-
+import remotebackgroundImage from '../../../../assets/distance-online-lecture-side-view-of-a-mixed-race-2023-11-27-05-11-45-utc-300x200.jpg';
+import RemoteInfrastructureManagement from '../../../../assets/focused-man-making-conference-call-on-laptop-while-2023-11-27-04-51-34-utc-300x200.jpg'
 const RemoteInfrastructureManagment = () => {
   return (
     <>
@@ -24,7 +24,7 @@ const RemoteInfrastructureManagment = () => {
           
         </div>
         <div className="Remote-image-content">
-          <img src={remotebackgroundImage} alt="Remote Infrastructure management" />
+          <img src={RemoteInfrastructureManagement} alt="Remote Infrastructure management" />
       </div>
   </div>
   

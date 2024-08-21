@@ -53,7 +53,7 @@ const Contact = () => {
       <div className="contact-map">
       <iframe
           title="Office Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434465691!2d144.9556511158699!3d-37.817327979751594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43a2ab9c3f%3A0x5045675218ce6e0!2s123%20Office%20St.%2C%20Business%20City!5e0!3m2!1sen!2sus!4v1622467512004!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d945.7875273865158!2d73.86624404510566!3d18.52211754548348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c05da0e7039d%3A0x3c88b1e335c1e4f1!2s3C%20IT%20SOLUTIONS%20%26%20TELECOMS%20INDIA%20LTD!5e0!3m2!1sen!2sin!4v1724250329616!5m2!1sen!2sin"
           width="800"
           height="450"
           style={{ border: 0 }}

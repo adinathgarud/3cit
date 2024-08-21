@@ -89,7 +89,7 @@ const Menu = () => {
                         <li><Link to="/investors/financial-result" onClick={toggleMenu}>Financial Result</Link></li>
                     </ul>
                 </li>
-                <li><Link to="/contact" onClick={toggleMenu}>Contact</Link></li>
+                <li><Link to="/contact" onClick={toggleMenu}>Contact Us</Link></li>
             </ul>
         </nav>
     );
