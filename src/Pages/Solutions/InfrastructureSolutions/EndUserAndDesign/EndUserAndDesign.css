@@ -6,14 +6,14 @@
 .enduser-content {
   position: relative;
   width: 100%;
-  height: 88vh;
+  height: 100vh;
   background-image: url('../../../../assets/Add-a-subheading-3 (1).png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: end;
   text-align: center;
   margin-top: -110px;
   z-index: -1;

@@ -48,6 +48,24 @@
     margin-bottom: 15px;
 }
 
+/* src/components/Footer.css */
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icon {
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: #27ae60;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #333333;
+}
+
+
 .footer a {
     color: #000000;
     text-decoration: none;

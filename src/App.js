@@ -68,6 +68,7 @@ import Moaoa from './Pages/Investors/MaterialDocuments/Moaoa';
 import NonApplicabilityofReg from './Pages/Investors/BSEIntimation/NonApplicabilityofReg';
 import OutcomeOfBoardMeeting from './Pages/Investors/BSEIntimation/OutcomeOfBoardMeeting';
 import ClosurOfTradingWindows from './Pages/Investors/BSEIntimation/ClosurOfTradingWindows';
+import Investors from './Pages/FooterPages/Investors';
 
 
 
@@ -156,6 +157,7 @@ const App = () => {
                 <Route path="/closure-of-trading-windows" element={<ClosurOfTradingWindows />} />
                 <Route path="/outcome-of-board-meeting" element={<OutcomeOfBoardMeeting />} />
                 <Route path="/non-applicability-of-reg" element={<NonApplicabilityofReg />} />
+                <Route path="/investors" element={<Investors />} />
                 
                
             </Routes>

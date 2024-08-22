@@ -76,69 +76,12 @@
 
 .contact-form-container {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  padding: 40px 20px;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 4px 0px;
   background-color: #fff;
   box-sizing: border-box;
   border-top: 1px solid #e9ecef;
-}
-
-.contact-form {
-  flex: 1;
-  max-width: 500px;
-  padding: 20px;
-  background: #ffffff;
- 
-  margin-right: 20px;
-}
-
-.contact-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: #555;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-
-.contact-form textarea {
-  height: 120px;
-}
-
-.contact-form button {
-  display: inline-block;
-  padding: 10px 20px;
-  background: #28a745;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.contact-form button:hover {
-  background: #218838;
-}
-
-.landline-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.landline-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
 }
 
 .contact-map {

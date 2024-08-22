@@ -3,7 +3,8 @@ import './Contact.css';
 import contact_location from '../assets/contact_location.jpeg';
 import contact_callus from '../assets/customer-support.png';
 import contact_emailus from '../assets/contact_emailus.png';
-import landlineImage from '../assets/communication-symbol-2023-11-27-04-57-29-utc-scaled.jpg'; // Ensure you have this image in your project
+//import landlineImage from '../assets/communication-symbol-2023-11-27-04-57-29-utc-scaled.jpg'; // Ensure you have this image in your project
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
@@ -31,25 +32,10 @@ const Contact = () => {
                     </div>
                 </div>
       <div className="contact-form-container">
-      <div className="landline-image">
-          <img src={landlineImage} alt="Landline" />
-        </div>
-        <div className="contact-form">
-
-          <form>
-            <label>Full Name</label>
-            <input type="text" name="fullname" placeholder='Full Name' />
-            <label>Mobile No</label>
-            <input type="text" name="mobile" placeholder='Mobile' />
-            <label>Email ID</label>
-            <input type="email" name="email" placeholder='Email' />
-            <label>Short Message</label>
-            <textarea name="message" placeholder='Message'></textarea>
-            <button type="submit">Submit</button>
-          </form>
-        </div>
-        
+      
+      <ContactForm />
       </div>
+
       <div className="contact-map">
       <iframe
           title="Office Location"
