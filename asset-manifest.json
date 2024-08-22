@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.2c3474bb.css",
-    "main.js": "/3cit/static/js/main.425828f6.js",
+    "main.css": "/3cit/static/css/main.138c7dff.css",
+    "main.js": "/3cit/static/js/main.354449e2.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -83,6 +83,7 @@
     "static/media/data-center-computer.png": "/3cit/static/media/data-center-computer.616f53ee3c4e1e5d42d8.png",
     "static/media/Virtualization.png": "/3cit/static/media/Virtualization.569eb6b7dbda454a141b.png",
     "static/media/Mobile-App-Landing-page-1-300x144.png": "/3cit/static/media/Mobile-App-Landing-page-1-300x144.3769f0b1f1058e57df5c.png",
+    "static/media/vertiv.png": "/3cit/static/media/vertiv.f2ff99069531673334dc.png",
     "static/media/DataProtection.png": "/3cit/static/media/DataProtection.13e95f16c4cdd858e91b.png",
     "static/media/Open-System.png": "/3cit/static/media/Open-System.b63e0d93bd0d3cbf18ed.png",
     "static/media/data-center-connectivity.png": "/3cit/static/media/data-center-connectivity.a026ba8645e9d4819744.png",
@@ -120,12 +121,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.2c3474bb.css.map": "/3cit/static/css/main.2c3474bb.css.map",
-    "main.425828f6.js.map": "/3cit/static/js/main.425828f6.js.map",
+    "main.138c7dff.css.map": "/3cit/static/css/main.138c7dff.css.map",
+    "main.354449e2.js.map": "/3cit/static/js/main.354449e2.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c3474bb.css",
-    "static/js/main.425828f6.js"
+    "static/css/main.138c7dff.css",
+    "static/js/main.354449e2.js"
   ]
 }
