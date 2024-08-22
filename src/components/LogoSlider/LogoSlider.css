@@ -3,7 +3,7 @@
 }
 
 .LogoSlider-logo {
-  height: 40vmin;
+  height: 4vmin;
   pointer-events: none;
 }
 
@@ -42,7 +42,7 @@ h2 {
 }
 
 .mainlogoslider-Container .logoslider-container img {
-  height: 90px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;

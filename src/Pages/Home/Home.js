@@ -112,7 +112,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
                             <div className="home-service-content">
                                 <h3 className="home-service-title">High quality services</h3>
                                 <p className="home-service-description">A Trusted Partner In Your <br/>Digital Business</p>
-                                <button className="home-service-button"><a href='/home'>Get In Touch</a></button>
+                                <button className="home-service-button"><a href='/3cit'>Get In Touch</a></button>
                             </div>
                     </div>
                     <div className="home-service-card">
@@ -120,7 +120,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
                             <div className="home-service-content">
                                 <h3 className="home-service-title">Unique Experience</h3>
                                 <p className="home-service-description">3CIT Igniting Growth<br/> Strategies for Your Success</p>
-                                <button className="home-service-button"><a href='/home'>Get In Touch</a></button>
+                                <button className="home-service-button"><a href='/3cit'>Get In Touch</a></button>
                             </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
                             <h5>READ MORE</h5>
                         </div>
                     </div>
-                    <button className="home-button"><a href='/#'>See all services</a></button>
+                    <button className="home-button"><a href='/solutions/infrastructure-solutions/end-user-design'>See all services</a></button>
                 </div>
                 
     
