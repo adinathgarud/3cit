@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/3cit/static/css/main.de4b1cc1.css",
-    "main.js": "/3cit/static/js/main.e851229c.js",
+    "main.css": "/3cit/static/css/main.ba23d2e3.css",
+    "main.js": "/3cit/static/js/main.304b26c4.js",
     "static/js/453.be219969.chunk.js": "/3cit/static/js/453.be219969.chunk.js",
     "static/media/Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Prospectus – 3CIT Solution.d9759d7716ef6c72a828.pdf",
     "static/media/Draft Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Draft Prospectus – 3CIT Solution.fe0cbb6c8369770f1b3c.pdf",
@@ -18,14 +18,22 @@
     "static/media/Tripartite CDSL Agreement – 3CIT Solution.pdf": "/3cit/static/media/Tripartite CDSL Agreement – 3CIT Solution.be15cdd8cd6d21e53b76.pdf",
     "static/media/Registrar & Transfer Agent – 3CIT Solution.pdf": "/3cit/static/media/Registrar & Transfer Agent – 3CIT Solution.dc928895d0ebcc49f0bb.pdf",
     "static/media/Market Maker Agreement – 3CIT Solution.pdf": "/3cit/static/media/Market Maker Agreement – 3CIT Solution.f6bd158ee866486d46e1.pdf",
+    "static/media/digital-marketing-content-planning-advertising-strategy-concept-online-marketing-ebusiness-ecommerce-business-online.jpg": "/3cit/static/media/digital-marketing-content-planning-advertising-strategy-concept-online-marketing-ebusiness-ecommerce-business-online.43e3b00d80a30ef8f8e0.jpg",
+    "static/media/website-development-links-seo-webinar-cyberspace-concept.jpg": "/3cit/static/media/website-development-links-seo-webinar-cyberspace-concept.3cfb6c54281719d731d1.jpg",
+    "static/media/marketing-market-strategy-planning-business-concept.jpg": "/3cit/static/media/marketing-market-strategy-planning-business-concept.8fa13503629700783514.jpg",
     "static/media/businessman-holding-graph-growth-increase-chart-positive-indicators-his-business.jpg": "/3cit/static/media/businessman-holding-graph-growth-increase-chart-positive-indicators-his-business.157aab520411b6dd9c98.jpg",
+    "static/media/online-strategy-media-marketing-icons.jpg": "/3cit/static/media/online-strategy-media-marketing-icons.fe8ff14c569ac9f0e31b.jpg",
+    "static/media/modern-social-media-developing-future-trend-social-media.jpg": "/3cit/static/media/modern-social-media-developing-future-trend-social-media.a932fc52a7d31df594f8.jpg",
+    "static/media/course-has-been-held-some-people-have-sat-participated-this-content-production-course-w.jpg": "/3cit/static/media/course-has-been-held-some-people-have-sat-participated-this-content-production-course-w.e98b62dcfcd97a180d08.jpg",
     "static/media/Abridged Prospectus – 3CIT Solution.pdf": "/3cit/static/media/Abridged Prospectus – 3CIT Solution.06c452bd6b0d5a250244.pdf",
     "static/media/Annual-Report_2022-23.pdf": "/3cit/static/media/Annual-Report_2022-23.b897de64a85a6a525b24.pdf",
     "static/media/MOA-AOA-Merged.pdf": "/3cit/static/media/MOA-AOA-Merged.dad0b97fb8c87d71a761.pdf",
+    "static/media/8068473_63484.jpg": "/3cit/static/media/8068473_63484.985a6373e7f691ca14d4.jpg",
     "static/media/Return 2021-22 – 3CIT Solution.pdf": "/3cit/static/media/Return 2021-22 – 3CIT Solution.15ed4e0429537d111fbc.pdf",
     "static/media/Return 2022-23 – 3CIT Solution.pdf": "/3cit/static/media/Return 2022-23 – 3CIT Solution.e510570fd9eb117fbe72.pdf",
     "static/media/Return 2020-21 – 3CIT Solution.pdf": "/3cit/static/media/Return 2020-21 – 3CIT Solution.70b09ef2779543c8f375.pdf",
     "static/media/Tripartite NSDL Agreement – 3CIT Solution.pdf": "/3cit/static/media/Tripartite NSDL Agreement – 3CIT Solution.ed51e3ecfeee29e9b367.pdf",
+    "static/media/290525518_ce1f8d87-4ac4-4032-b1c5-2dd1312dd722.jpg": "/3cit/static/media/290525518_ce1f8d87-4ac4-4032-b1c5-2dd1312dd722.75302abe0b8abb69617d.jpg",
     "static/media/Basis of Allotment – 3CIT Solution.pdf": "/3cit/static/media/Basis of Allotment – 3CIT Solution.3368a25d0796856684d6.pdf",
     "static/media/top-view-of-laptop-smartphone-and-plant-near-stat-2023-11-27-05-31-09-utc-scaled.jpg": "/3cit/static/media/top-view-of-laptop-smartphone-and-plant-near-stat-2023-11-27-05-31-09-utc-scaled.61f388948c49b2eb774f.jpg",
     "static/media/VNU_M652_01.png": "/3cit/static/media/VNU_M652_01.72bc5e6cd78479992bbe.png",
@@ -199,12 +207,12 @@
     "static/media/slick.ttf": "/3cit/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/3cit/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/3cit/index.html",
-    "main.de4b1cc1.css.map": "/3cit/static/css/main.de4b1cc1.css.map",
-    "main.e851229c.js.map": "/3cit/static/js/main.e851229c.js.map",
+    "main.ba23d2e3.css.map": "/3cit/static/css/main.ba23d2e3.css.map",
+    "main.304b26c4.js.map": "/3cit/static/js/main.304b26c4.js.map",
     "453.be219969.chunk.js.map": "/3cit/static/js/453.be219969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de4b1cc1.css",
-    "static/js/main.e851229c.js"
+    "static/css/main.ba23d2e3.css",
+    "static/js/main.304b26c4.js"
   ]
 }
