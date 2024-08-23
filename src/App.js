@@ -69,6 +69,8 @@ import NonApplicabilityofReg from './Pages/Investors/BSEIntimation/NonApplicabil
 import OutcomeOfBoardMeeting from './Pages/Investors/BSEIntimation/OutcomeOfBoardMeeting';
 import ClosurOfTradingWindows from './Pages/Investors/BSEIntimation/ClosurOfTradingWindows';
 import Investors from './Pages/FooterPages/Investors';
+import DigitalMarketing from './Pages/AboutUs/DigitalMarketing/DigitalMarketing';
+
 
 
 
@@ -82,7 +84,8 @@ const App = () => {
                 <Route path="/aboutus/company" element={<CompanyOverview />} />
                 <Route path="/aboutus/team" element={<Team />} />
                 <Route path="/aboutus/careers" element={<Careers />} />
-                <Route path="/aboutus/blog" element={<Blog />} />
+                <Route path="/aboutus/blog" element={<Blog />} /> 
+                <Route path="/aboutus/digitalmarketing" element={<DigitalMarketing />} />
                
                 
                 <Route  path="/solutions/infrastructure-solutions/end-user-design" element={<EndUserAndDesign />} />

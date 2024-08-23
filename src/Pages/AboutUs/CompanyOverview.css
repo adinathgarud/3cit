@@ -59,7 +59,7 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
-  padding: 20px 10%;
+  padding: 0px;
 }
 
 .top-company,
@@ -109,7 +109,7 @@
 }
 
 .left2-company img {
-  width: 60%;
+  width: 50%;
   height: auto;
   margin-bottom: 20%;
 }
@@ -195,7 +195,7 @@
 }
 
 .info1-content {
-  padding: 20px;
+  padding: 10px;
 }
 
 .vision, .mission {
@@ -401,7 +401,6 @@
 @media (max-width: 576px) {
   .company-container {
       height: 55vh;
-      padding: 5px;
   }
 
   .company-content .overlay h1 {
@@ -418,22 +417,5 @@
 
   .company-card-card {
       width: 100%;
-  }
-
-  .company-card-container {
-      margin: 5%;
-  }
-
-  /* Further decrease video size on extra small screens */
-  .play-icon-container {
-      height: 150px; /* Reduced height for extra small screens */
-  }
-
-  .play-icon {
-      font-size: 40px; /* Further reduced size for extra small screens */
-  }
-
-  .left2-company img {
-      width: 90%; /* Adjust image size for extra small screens */
   }
 }

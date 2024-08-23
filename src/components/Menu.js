@@ -24,7 +24,7 @@ const Menu = () => {
                         <li><Link to="/aboutus/company" onClick={toggleMenu}>Company</Link></li>
                         <li><Link to="/aboutus/team" onClick={toggleMenu}>Our Team</Link></li>
                         <li><Link to="/aboutus/careers" onClick={toggleMenu}>Careers</Link></li>
-                        <li><Link to="/aboutus/blog" onClick={toggleMenu}>Blog</Link></li>
+                        <li><Link to="/aboutus/blog" onClick={toggleMenu}>Blog</Link></li> <li><Link to="/aboutus/digitalmarketing" onClick={toggleMenu}>Digital Marketing</Link></li>
                     </ul>
                 </li>
                 <li>
