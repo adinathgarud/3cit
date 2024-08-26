@@ -22,11 +22,11 @@ const Footer = () => {
                 <div className="footer-column quick-links">
                     <h2>Quick Links</h2>
                     <ul>
-                        <li><Link to="/aboutus/company">Company</Link></li>
+                        <li><Link to="/companyoverview">Company</Link></li>
                         <li><Link to="/investors">Investor</Link></li>
-                        <li><Link to="/aboutus/team">Team</Link></li>
-                        <li><Link to="/aboutus/careers">Career</Link></li>
-                        <li><Link to="/aboutus/blog">News & Updates</Link></li>
+                        <li><Link to="/team">Team</Link></li>
+                        <li><Link to="/careers">Career</Link></li>
+                        <li><Link to="/blog">News & Updates</Link></li>
                         <li><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </div>

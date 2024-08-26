@@ -18,10 +18,10 @@ const Annaucment = () => {
           <p>Other announcements.</p>
           <ul>
             <li>
-              Regulation 30_16.07.24 → <a href="/#">Download</a>
+              Regulation 30_16.07.24 → <a href="/regulation30_16-07-24">Download</a>
             </li>
             <li>
-              Regulation 30_25.07.24 → <a href="/#">Download</a>
+              Regulation 30_25.07.24 → <a href="/regulation30_25-07-24">Download</a>
             </li>
           </ul>
         </>

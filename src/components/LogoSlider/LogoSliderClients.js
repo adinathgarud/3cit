@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./LogoSliderClients.css";
+import "./LogoSlider.css";
 import logo1 from '../../assets/Clients_Logo/anibrain.png';
 import logo2 from '../../assets/Clients_Logo/bajaj.png';
 import logo3 from '../../assets/Clients_Logo/besttech.png';
@@ -41,6 +41,26 @@ const LogoSliderClients = () => {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (

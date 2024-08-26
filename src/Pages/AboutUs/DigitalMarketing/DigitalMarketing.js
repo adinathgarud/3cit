@@ -9,7 +9,7 @@ import socialmedia from '../../../assets/DigitalMarketing/modern-social-media-de
 import videoproduction from '../../../assets/DigitalMarketing/course-has-been-held-some-people-have-sat-participated-this-content-production-course-w.jpg'
 import webdevlopment from '../../../assets/DigitalMarketing/website-development-links-seo-webinar-cyberspace-concept.jpg'
 import InquiryForm from './InquiryForm';
-
+import { Helmet } from 'react-helmet';
 const DigitalMarketing = () => {
     const services = [
         {
@@ -53,6 +53,11 @@ const DigitalMarketing = () => {
 
     return (
         <>
+        <Helmet>
+                <title> Digital Marketing - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
         <div className="digitalmarketing-main">
             
         </div>

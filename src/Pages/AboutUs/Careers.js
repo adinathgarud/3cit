@@ -1,8 +1,16 @@
 import React from 'react';
 import './Careers.css';
-
+import { Helmet } from 'react-helmet';
 const Careers = () => {
   return (
+    <>
+    <Helmet>
+                <title> Careers - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
+    
+    
     <div className="carriar-container">
       <div className="carriar-top">
         <h1>Career</h1>
@@ -36,6 +44,7 @@ const Careers = () => {
         </aside>
       </div>
     </div>
+    </>
   );
 };
 

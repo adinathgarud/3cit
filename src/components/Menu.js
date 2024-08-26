@@ -21,10 +21,10 @@ const Menu = () => {
                 <li>
                     <Link to="#">About Us <img src={arrowDownIcon} className="dropdown-arrow" alt="Dropdown Arrow" /></Link>
                     <ul className="submenu">
-                        <li><Link to="/aboutus/company" onClick={toggleMenu}>Company</Link></li>
-                        <li><Link to="/aboutus/team" onClick={toggleMenu}>Our Team</Link></li>
-                        <li><Link to="/aboutus/careers" onClick={toggleMenu}>Careers</Link></li>
-                        <li><Link to="/aboutus/blog" onClick={toggleMenu}>Blog</Link></li> <li><Link to="/aboutus/digitalmarketing" onClick={toggleMenu}>Digital Marketing</Link></li>
+                        <li><Link to="/companyoverview" onClick={toggleMenu}>Company OverView</Link></li>
+                        <li><Link to="/team" onClick={toggleMenu}>Our Team</Link></li>
+                        <li><Link to="/careers" onClick={toggleMenu}>Careers</Link></li>
+                        <li><Link to="/blog" onClick={toggleMenu}>Blog</Link></li> <li><Link to="/digitalmarketing" onClick={toggleMenu}>Digital Marketing</Link></li>
                     </ul>
                 </li>
                 <li>

@@ -21,7 +21,7 @@ import "slick-carousel/slick/slick-theme.css";
     import './Home.css'; // Import your CSS file
 import LogoSlider from '../../components/LogoSlider/LogoSlider';
 import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
-
+import { Helmet } from 'react-helmet';
     
     
     const Home = () => {
@@ -29,7 +29,11 @@ import LogoSliderClients from '../../components/LogoSlider/LogoSliderClients';
 
         return (
             <>
-            
+            <Helmet>
+                <title> Home - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
             <div className="Home-container">
     
                 <title>3C IT</title>

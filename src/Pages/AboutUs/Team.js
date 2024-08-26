@@ -15,7 +15,7 @@ import Anil from '../../assets/anil.jpeg'
 import Govind from '../../assets/govind.png'
 import Pakashana from '../../assets/Pakashana.jpeg'
 import Dhirendra from '../../assets/Dhirendra.jpg'
-
+import { Helmet } from 'react-helmet';
 
 const Team = () => {
   const [activeSection, setActiveSection] = useState('directors');
@@ -46,6 +46,11 @@ const Team = () => {
 
   return (
     <>
+    <Helmet>
+                <title> Our Team - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
     <div className="team-page">
       <div className="banner">
       

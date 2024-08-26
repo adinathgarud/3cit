@@ -7,6 +7,7 @@ import ClientCentricApproach from '../../assets/home-care.png';
 import InnovationattheCore from '../../assets/company-innovation.png';
 import YouTube from 'react-youtube';
 import playicon from '../../assets/play.png';
+import { Helmet } from 'react-helmet'
 
 const CompanyOverview = () => {
 
@@ -39,6 +40,11 @@ const CompanyOverview = () => {
   };
     return (
         <> 
+        <Helmet>
+                <title> Company Overview - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
         <div className='company-maincontainer'>
 
        

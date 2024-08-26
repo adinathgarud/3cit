@@ -70,6 +70,8 @@ import OutcomeOfBoardMeeting from './Pages/Investors/BSEIntimation/OutcomeOfBoar
 import ClosurOfTradingWindows from './Pages/Investors/BSEIntimation/ClosurOfTradingWindows';
 import Investors from './Pages/FooterPages/Investors';
 import DigitalMarketing from './Pages/AboutUs/DigitalMarketing/DigitalMarketing';
+//import Regulation1 from './Pages/Investors/Annaucment/Regulation1';
+
 
 
 
@@ -78,14 +80,15 @@ import DigitalMarketing from './Pages/AboutUs/DigitalMarketing/DigitalMarketing'
 const App = () => {
     return (
         <Router>
+        
             <Header />
             <Routes>
                 <Route path="/3cit" element={<Home />} />
-                <Route path="/aboutus/company" element={<CompanyOverview />} />
-                <Route path="/aboutus/team" element={<Team />} />
-                <Route path="/aboutus/careers" element={<Careers />} />
-                <Route path="/aboutus/blog" element={<Blog />} /> 
-                <Route path="/aboutus/digitalmarketing" element={<DigitalMarketing />} />
+                <Route path="/companyoverview" element={<CompanyOverview />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/careers" element={<Careers />} />
+                <Route path="/blog" element={<Blog />} /> 
+                <Route path="/digitalmarketing" element={<DigitalMarketing />} />
                
                 
                 <Route  path="/solutions/infrastructure-solutions/end-user-design" element={<EndUserAndDesign />} />
@@ -161,6 +164,8 @@ const App = () => {
                 <Route path="/outcome-of-board-meeting" element={<OutcomeOfBoardMeeting />} />
                 <Route path="/non-applicability-of-reg" element={<NonApplicabilityofReg />} />
                 <Route path="/investors" element={<Investors />} />
+               
+                
                 
                
             </Routes>

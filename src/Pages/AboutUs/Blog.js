@@ -1,10 +1,15 @@
 import React from 'react';
 import './Blog.css';
 //import blogImage from '../../src/assets/2024-08-02.png'; // Adjust the path based on your file structure
-
+import { Helmet } from 'react-helmet';
 const Blog = () => {
   return (
     <>
+    <Helmet>
+                <title> Blog - 3C IT Solutions & Telecoms (India) Private Limited</title>
+                <meta charSet='utf-8' />
+                <link rel="canonical" href="https://www.3citsolution.com/3cit" />
+            </Helmet>
       <div className="blog-heading">
         <h1>Blog</h1>
       </div>
